@@ -3,7 +3,10 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Player
+  - Hostile
+  - King
   layers:
   - Default
   - TransparentFX
@@ -13,10 +16,10 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
-  - 
-  - 
+  - Floor
+  - Wall
+  - Player
+  - NPC
   - 
   - 
   - 
@@ -40,4 +43,10 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Floor
+    uniqueID: 3501841249
+    locked: 0
+  - name: Actor
+    uniqueID: 2893458015
     locked: 0
