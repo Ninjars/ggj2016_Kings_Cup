@@ -2,6 +2,8 @@
 using System.Collections;
 using UnityEngine.UI;	//Allows us to use UI.
 
+using System.Collections.Generic;
+
 //Player inherits from MovingObject, our base class for objects that can move, Enemy also inherits from this.
 public class Player : MovingObject {
 	public float restartLevelDelay = 1f;		//Delay time in seconds to restart level.
@@ -12,8 +14,12 @@ public class Player : MovingObject {
 	
 	private Animator animator;					//Used to store a reference to the Player's animator component.
 	private int steps;							//Used to store player food points total during level.
+	private int stepsInShadow;
 	private Vector2 touchOrigin = -Vector2.one;	//Used to store location of screen touch origin for mobile controls.
-	
+	private GameObject[] torchLights;
+	private GameObject[] mainLights;
+	private float torchShadowDistance = 2f;
+	private float mainShadowDistance = 3.5f;
 	
 	//Start overrides the Start function of MovingObject
 	protected override void Start () {
@@ -22,9 +28,13 @@ public class Player : MovingObject {
 
 		// set starting step count
 		steps = 0;
+		stepsInShadow = 0;
 		
 		//Set the text to reflect the current player step total.
 		updateStepsText();
+
+		torchLights = GameObject.FindGameObjectsWithTag ("TorchLight");
+		mainLights = GameObject.FindGameObjectsWithTag ("MainLight");
 		
 		//Call the Start function of the MovingObject base class.
 		base.Start ();
@@ -118,6 +128,11 @@ public class Player : MovingObject {
 		if (Move (xDir, yDir, out hit)) {
 			steps++;
 			updateStepsText();
+			if (checkInLight ()) {
+				stepsInShadow = 0;
+			} else {
+				stepsInShadow++;
+			}
 			//Call RandomizeSfx of SoundManager to play the move sound, passing in two audio clips to choose from.
 //				SoundManager.instance.RandomizeSfx (moveSound1, moveSound2);
 		}
@@ -128,6 +143,26 @@ public class Player : MovingObject {
 		//Set the playersTurn boolean of GameManager to false now that players turn is over.
 		GameManager.instance.playersTurn = false;
 	}
+
+	private bool checkInLight() {
+		if (objectWithinDistance (mainShadowDistance, mainLights)) {
+			return true;
+		} else {
+			return objectWithinDistance (torchShadowDistance, torchLights);
+		}
+	}
+
+	private bool objectWithinDistance(float targetDistance, GameObject[] objects) {
+		float closest = -1f;
+		foreach (GameObject obj in torchLights) {
+			float distance = Vector3.Distance (transform.position, obj.transform.position);
+			if (closest < 0f || distance < closest) {
+				closest = distance;
+			}
+		}
+		return closest >= 0 && closest < targetDistance;
+	}
+		
 	
 	//OnTriggerEnter2D is sent when another object enters a trigger collider attached to this object (2D physics only).
 	private void OnTriggerEnter2D (Collider2D other) {
