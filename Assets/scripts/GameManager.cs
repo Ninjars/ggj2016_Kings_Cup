@@ -57,7 +57,7 @@ public class GameManager : MonoBehaviour {
 	
 	//Update is called every frame.
 	void Update() {
-		Debug.Log ("players turn? " + this.playersTurn + " enemy turn? " + this.enemiesMoving);
+//		Debug.Log ("players turn? " + this.playersTurn + " enemy turn? " + this.enemiesMoving);
 		//Check that playersTurn or enemiesMoving or doingSetup are not currently true.
 		if (playersTurn || enemiesMoving) {
 			//If any of these are true, return and do not start MoveEnemies.
@@ -65,7 +65,7 @@ public class GameManager : MonoBehaviour {
 		}
 		
 		//Start moving enemies.
-		Debug.Log ("start moving enemies");
+//		Debug.Log ("start moving enemies");
 		StartCoroutine (MoveEnemies ());
 	}
 	
@@ -81,7 +81,7 @@ public class GameManager : MonoBehaviour {
 
 	public void setPlayersTurn(bool playersTurn){
 		this.playersTurn = playersTurn;
-		Debug.Log ("players turn set to " + this.playersTurn);
+//		Debug.Log ("players turn set to " + this.playersTurn);
 	}
 
 	public void addEnemyToList(Enemy enemy){
@@ -90,7 +90,7 @@ public class GameManager : MonoBehaviour {
 	
 	//Coroutine to move enemies in sequence.
 	IEnumerator MoveEnemies() {
-		Debug.Log ("MoveEnemies");
+//		Debug.Log ("MoveEnemies");
 		//While enemiesMoving is true player is unable to move.
 		enemiesMoving = true;
 		
@@ -100,7 +100,7 @@ public class GameManager : MonoBehaviour {
 		//If there are no enemies spawned (IE in first level):
 		if (enemies.Count == 0) 
 		{
-			Debug.Log ("no enemies");
+//			Debug.Log ("no enemies");
 			//Wait for turnDelay seconds between moves, replaces delay caused by enemies moving when there are none.
 			yield return new WaitForSeconds(turnDelay);
 		}
@@ -108,7 +108,7 @@ public class GameManager : MonoBehaviour {
 		//Loop through List of Enemy objects.
 		for (int i = 0; i < enemies.Count; i++)
 		{
-			Debug.Log ("Moving an enemy");
+//			Debug.Log ("Moving an enemy");
 			//Call the MoveEnemy function of Enemy at index i in the enemies List.
 			enemies[i].MoveEnemy ();
 			
@@ -116,7 +116,7 @@ public class GameManager : MonoBehaviour {
 			yield return new WaitForSeconds(enemies[i].moveTime);
 		}
 
-		Debug.Log ("done moving enemies");
+//		Debug.Log ("done moving enemies");
 		//Once Enemies are done moving, set playersTurn to true so player can move.
 		setPlayersTurn(true);
 		

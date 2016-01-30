@@ -10,7 +10,7 @@ GameObject:
   - 4: {fileID: 416682}
   m_Layer: 0
   m_Name: CeilingLight
-  m_TagString: MainLight
+  m_TagString: AmbientLight
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -106,7 +106,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 0}
       propertyPath: m_TagString
-      value: MainLight
+      value: AmbientLight
       objectReference: {fileID: 0}
     - target: {fileID: 0}
       propertyPath: m_Color.r

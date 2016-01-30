@@ -8,8 +8,8 @@ TagManager:
   - King
   - Exit
   - TorchLight
-  - MainLight
   - Player
+  - AmbientLight
   layers:
   - Default
   - TransparentFX
