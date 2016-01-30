@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;		//Allows us to use Lists. 
 using UnityEngine.UI;					//Allows us to use UI.
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour {
 	public float levelStartDelay = 2f;						//Time to wait before starting level, in seconds.
@@ -18,6 +19,7 @@ public class GameManager : MonoBehaviour {
 	public GameObject button;
 	private GameObject overlayInstance;
 	private GameObject mainTextInstance;
+	private GameObject buttonInstance;
 	private bool enemiesMoving;								//Boolean to check if enemies are 
 
 	public enum GameOverReason {WINE, TIME, SHADOWS, ATTEMPTED_REGICIDE};
@@ -34,9 +36,6 @@ public class GameManager : MonoBehaviour {
 			//Then destroy this. This enforces our singleton pattern, meaning there can only ever be one instance of a GameManager.
 			Destroy (gameObject);
 		}
-
-		//Sets this to not be destroyed when reloading scene
-		DontDestroyOnLoad(gameObject);
 		
 		//Assign enemies to a new List of Enemy objects.
 		enemies = new List<Enemy>();
@@ -46,16 +45,71 @@ public class GameManager : MonoBehaviour {
 	void HideLevelImage() {
 		//Disable the levelImage gameObject.
 		if (overlayInstance != null) Transform.Destroy(overlayInstance);
-		if (mainText != null) Transform.Destroy(mainText);
+		if (mainTextInstance != null) Transform.Destroy(mainTextInstance);
+		if (buttonInstance != null) Transform.Destroy(buttonInstance);
 	}
 
-	void ShowLevelImage(string message) {
-		Debug.Log ("ShowLevelImage()");
+	void ShowGameOverMessage(string message) {
+		Debug.Log ("ShowGameOverMessage()");
+		instantiateUI ();
+		playersTurn = false;
+		mainTextInstance.GetComponent<Text> ().text = message;
+		buttonInstance.GetComponentInChildren<Text> ().text = "GET MORE WINE";
+		buttonInstance.GetComponentInChildren<Button>().onClick.AddListener (() => RestartLevel());
+	}
+
+	public void ShowNextLevelMessage() {
+		Debug.Log ("ShowNextLevelMessage()");
+		instantiateUI ();
+		playersTurn = false;
+		mainTextInstance.GetComponent<Text> ().text = getNextLevelString();
+		buttonInstance.GetComponentInChildren<Text> ().text = "GET MORE WINE";
+		buttonInstance.GetComponentInChildren<Button> ().onClick.AddListener (() => GoToNextLevel());
+	}
+
+	private string getNextLevelString() {
+		string baseString = "EXCELLENT!\n";
+		string addition = "";
+		switch (Random.Range (0, 5)) {
+		case 0:
+			addition = "How about a nice bottle of red?";
+			break;
+		case 1:
+			addition = "Any more house white?";
+			break;
+		case 2:
+			addition = "I'm still rather parched - another!";
+			break;
+		case 3:
+			addition = "Mmmm, wine...";
+			break;
+		default:
+			addition = "*Gurgle, slurp*";
+			break;
+		}
+		return baseString + addition;
+	}
+
+	private void instantiateUI() {
+		Debug.Log ("instantiateUI()");
 		overlayInstance = Instantiate (overlay) as GameObject;
 		mainTextInstance = Instantiate (mainText) as GameObject;
-		mainTextInstance.GetComponent<Text> ().text = message;
-		overlayInstance.transform.parent = canvas.transform;
-		mainTextInstance.transform.parent = canvas.transform;
+		buttonInstance = Instantiate (button) as GameObject;
+		overlayInstance.transform.SetParent(canvas.transform);
+		mainTextInstance.transform.SetParent(canvas.transform);
+		buttonInstance.transform.SetParent(canvas.transform, false);
+	}
+
+	private void RestartLevel() {
+		Debug.Log ("RestartLevel()");
+		SceneManager.LoadScene (SceneManager.GetActiveScene().buildIndex);
+		HideLevelImage ();
+	}
+
+	private void GoToNextLevel() {
+		Debug.Log ("GoToNextLevel()");
+		SceneManager.LoadScene (SceneManager.GetActiveScene().buildIndex + 1);
+		HideLevelImage ();
 	}
 	
 	//Update is called every frame.
@@ -89,7 +143,7 @@ public class GameManager : MonoBehaviour {
 			failMessage += "Bodily assaulting the King is generally frowned upon.";
 			break;
 		}
-		ShowLevelImage(failMessage);
+		ShowGameOverMessage(failMessage);
 
 		//Disable this GameManager.
 		enabled = false;
