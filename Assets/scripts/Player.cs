@@ -8,6 +8,7 @@ using System.Collections.Generic;
 public class Player : MovingObject {
 	public float restartLevelDelay = 1f;		//Delay time in seconds to restart level.
 	public Text stepText;						//UI Text to display current player food total.
+	public Text shadowStepText;						//UI Text to display current player food total.
 	public AudioClip moveSound1;				//1 of 2 Audio clips to play when player moves.
 	public AudioClip moveSound2;				//2 of 2 Audio clips to play when player moves.
 	public AudioClip gameOverSound;				//Audio clip to play when player dies.
@@ -42,6 +43,12 @@ public class Player : MovingObject {
 
 	private void updateStepsText() {
 		stepText.text = "Steps: " + steps;
+	}
+
+	private void updateShadowStepsText() {
+		if (shadowStepText != null) {
+			shadowStepText.text = "Steps in shadow: " + stepsInShadow;
+		}
 	}
 	
 	private void Update() {
@@ -133,6 +140,7 @@ public class Player : MovingObject {
 			} else {
 				stepsInShadow++;
 			}
+			updateShadowStepsText ();
 			//Call RandomizeSfx of SoundManager to play the move sound, passing in two audio clips to choose from.
 //				SoundManager.instance.RandomizeSfx (moveSound1, moveSound2);
 		}
