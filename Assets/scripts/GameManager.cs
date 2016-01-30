@@ -53,7 +53,7 @@ public class GameManager : MonoBehaviour {
 	
 	//Update is called every frame.
 	void Update() {
-		Debug.Log ("players turn? " + this.playersTurn + " enemy turn? " + this.enemiesMoving);
+//		Debug.Log ("players turn? " + this.playersTurn + " enemy turn? " + this.enemiesMoving);
 		//Check that playersTurn or enemiesMoving or doingSetup are not currently true.
 		if (playersTurn || enemiesMoving) {
 			//If any of these are true, return and do not start MoveEnemies.
