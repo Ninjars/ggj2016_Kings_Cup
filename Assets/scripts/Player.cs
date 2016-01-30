@@ -21,7 +21,7 @@ public class Player : MovingObject {
 	private GameObject[] torchLights;
 	private GameObject[] mainLights;
 	private float torchShadowDistance = 2f;
-	private float mainShadowDistance = 3.5f;
+	private float mainShadowDistance = 4f;
 	private int wineCount = 1;
 	
 	//Start overrides the Start function of MovingObject
