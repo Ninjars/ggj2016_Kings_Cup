@@ -51,3 +51,6 @@ TagManager:
   - name: Actor
     uniqueID: 2893458015
     locked: 0
+  - name: Shadow
+    uniqueID: 3215149341
+    locked: 0
