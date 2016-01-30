@@ -13,7 +13,6 @@ public class GameManager : MonoBehaviour {
 	private Text levelText;									//Text to display current level number.
 	private GameObject levelImage;							//Image to block out level as levels are being set up, background for levelText.
 	private bool enemiesMoving;								//Boolean to check if enemies are moving.
-	private bool doingSetup = true;							//Boolean to check if we're setting up board, prevent Player from moving during setup.
 	
 	//Awake is always called before any Start functions
 	void Awake() {
@@ -39,18 +38,17 @@ public class GameManager : MonoBehaviour {
 	void HideLevelImage() {
 		//Disable the levelImage gameObject.
 		levelImage.SetActive(false);
-		
-		//Set doingSetup to false allowing player to move again.
-		doingSetup = false;
 	}
 	
 	//Update is called every frame.
 	void Update() {
 		//Check that playersTurn or enemiesMoving or doingSetup are not currently true.
-		if(playersTurn || enemiesMoving || doingSetup)
-			
+		if (playersTurn || enemiesMoving) {
+
+			Debug.Log ("player turn? " + playersTurn + " enemies moving? " + enemiesMoving);
 			//If any of these are true, return and do not start MoveEnemies.
 			return;
+		}
 		
 		//Start moving enemies.
 		StartCoroutine (MoveEnemies ());
