@@ -7676,6 +7676,10 @@ Prefab:
       propertyPath: canvas
       value: 
       objectReference: {fileID: 1103464118}
+    - target: {fileID: 11470980, guid: 0c17d8c9d23964965afaa97a37219941, type: 2}
+      propertyPath: soundManager
+      value: 
+      objectReference: {fileID: 182874, guid: bc7eef507ac3b444dacd4b6c1a9c5bb3, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0c17d8c9d23964965afaa97a37219941, type: 2}
   m_IsPrefabParent: 0
@@ -8194,7 +8198,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 3
 --- !u!1001 &1379225352
 Prefab:
   m_ObjectHideFlags: 0
