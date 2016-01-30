@@ -35,7 +35,7 @@ public class Player : MovingObject {
 		updateStepsText();
 
 		torchLights = GameObject.FindGameObjectsWithTag ("TorchLight");
-		mainLights = GameObject.FindGameObjectsWithTag ("MainLight");
+		mainLights = GameObject.FindGameObjectsWithTag ("AmbientLight");
 		
 		//Call the Start function of the MovingObject base class.
 		base.Start ();
@@ -163,7 +163,7 @@ public class Player : MovingObject {
 
 	private bool objectWithinDistance(float targetDistance, GameObject[] objects) {
 		float closest = -1f;
-		foreach (GameObject obj in torchLights) {
+		foreach (GameObject obj in objects) {
 			float distance = Vector3.Distance (transform.position, obj.transform.position);
 			if (closest < 0f || distance < closest) {
 				closest = distance;
