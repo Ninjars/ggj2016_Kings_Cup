@@ -21,6 +21,7 @@ public class Player : MovingObject {
 	private GameObject[] mainLights;
 	private float torchShadowDistance = 2f;
 	private float mainShadowDistance = 3.5f;
+	private int wineCount = 1;
 	
 	//Start overrides the Start function of MovingObject
 	protected override void Start () {
@@ -175,46 +176,24 @@ public class Player : MovingObject {
 	
 	//OnTriggerEnter2D is sent when another object enters a trigger collider attached to this object (2D physics only).
 	private void OnTriggerEnter2D (Collider2D other) {
+		Debug.Log ("OnTriggerEnter2D");
 		//Check if the tag of the trigger collided with is Exit.
-		if(other.tag == "Exit") {
+		if (other.tag == "Exit") {
 			//Invoke the Restart function to start the next level with a delay of restartLevelDelay (default 1 second).
 			Invoke ("Restart", restartLevelDelay);
-			Debug.Log("Success!");
+			Debug.Log ("Success!");
 			//Disable the player object since level is over.
 			enabled = false;
+		} else if (other.tag == "Hostile") {
+			this.collisionWithNPC ();
 		}
-		
-//			//Check if the tag of the trigger collided with is Food.
-//			else if(other.tag == "Food") {
-//				//Add pointsPerFood to the players current food total.
-//				food += pointsPerFood;
-//				
-//				//Update foodText to represent current total and notify player that they gained points
-//				stepText.text = "+" + pointsPerFood + " Food: " + food;
-//				
-//				//Call the RandomizeSfx function of SoundManager and pass in two eating sounds to choose between to play the eating sound effect.
-//				SoundManager.instance.RandomizeSfx (eatSound1, eatSound2);
-//				
-//				//Disable the food object the player collided with.
-//				other.gameObject.SetActive (false);
-//			}
-//			
-//			//Check if the tag of the trigger collided with is Soda.
-//			else if(other.tag == "Soda") {
-//				//Add pointsPerSoda to players food points total
-//				food += pointsPerSoda;
-//				
-//				//Update foodText to represent current total and notify player that they gained points
-//				stepText.text = "+" + pointsPerSoda + " Food: " + food;
-//				
-//				//Call the RandomizeSfx function of SoundManager and pass in two drinking sounds to choose between to play the drinking sound effect.
-//				SoundManager.instance.RandomizeSfx (drinkSound1, drinkSound2);
-//				
-//				//Disable the soda object the player collided with.
-//				other.gameObject.SetActive (false);
-//			}
 	}
-	
+
+	private void collisionWithNPC(){
+		wineCount--;
+		this.CheckIfGameOver ();
+		Debug.Log ("WINE TIME");
+	}
 	
 	//Restart reloads the scene when called.
 	private void Restart () {
@@ -226,18 +205,8 @@ public class Player : MovingObject {
 	private void CheckIfGameOver () {
 		if (steps > GameManager.instance.MaxTurns) {
 			GameManager.instance.GameOver ();
+		} else if (wineCount == 0) {
+			GameManager.instance.GameOver ();
 		}
-			
-		//Check if food point total is less than or equal to zero.
-//			if (food <= 0) {
-//				//Call the PlaySingle function of SoundManager and pass it the gameOverSound as the audio clip to play.
-//				SoundManager.instance.PlaySingle (gameOverSound);
-//				
-//				//Stop the background music.
-//				SoundManager.instance.musicSource.Stop();
-//				
-//				//Call the GameOver function of GameManager.
-//				GameManager.instance.GameOver ();
-//			}
 	}
 }
