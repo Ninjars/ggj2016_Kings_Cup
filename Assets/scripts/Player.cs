@@ -187,6 +187,8 @@ public class Player : MovingObject {
 			enabled = false;
 		} else if (other.tag == "Hostile") {
 			this.collisionWithNPC ();
+		} else if (other.tag == "King") {
+			this.AttemptRegiside ();
 		}
 	}
 
@@ -200,6 +202,9 @@ public class Player : MovingObject {
 	private void Restart () {
 		//Load the last scene loaded, in this case Main, the only scene in the game.
 		Application.LoadLevel (Application.loadedLevel);
+	}
+
+	private void AttemptRegiside(){
 	}
 
 	private void CheckIfGameOver() {
