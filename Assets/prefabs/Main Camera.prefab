@@ -93,7 +93,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gameManager: {fileID: 109404, guid: 4e7ad194c2caf49b18a98893f78571d4, type: 2}
   soundManager: {fileID: 0}
-  MaxTurns: 0
+  MaxTurns: 30
   overlay: {fileID: 102362, guid: ef4978adf05114e398411536f3c2572b, type: 2}
   mainText: {fileID: 126456, guid: 5fb359a1a000a467e886205e26650963, type: 2}
 --- !u!124 &12454806
@@ -118,6 +118,10 @@ Prefab:
       propertyPath: overlay
       value: 
       objectReference: {fileID: 102362, guid: ef4978adf05114e398411536f3c2572b, type: 2}
+    - target: {fileID: 0}
+      propertyPath: MaxTurns
+      value: 30
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 180964}
