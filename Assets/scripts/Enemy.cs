@@ -22,7 +22,7 @@ public class Enemy : MovingObject {
 	public void MoveEnemy() {
 		// If we've reached the end position, we want to head back to the start position
 		if (transform.position.x == endPosition.x && transform.position.y == endPosition.y) {
-			Debug.Log ("reached end");
+//			Debug.Log ("reached end");
 			endPosition = startPosition;
 			startPosition = new Vector2(transform.position.x, transform.position.y);
 		}
@@ -30,7 +30,7 @@ public class Enemy : MovingObject {
 		bool moved = false;
 		List<Directions> failedMoves = new List<Directions>();
 		while (!moved && failedMoves.Count < 4) {
-			Debug.Log ("hello from moved loop");
+//			Debug.Log ("hello from moved loop");
 			Directions next_step = this.getDoStep (failedMoves);
 			moved = this.MoveInDirection (next_step);
 			if (!moved) {
@@ -40,11 +40,11 @@ public class Enemy : MovingObject {
 	}
 
 	protected Directions getDoStep(List<Directions> failedMoves){
-		Debug.Log ("startPosition: " + this.startPosition);
-		Debug.Log ("endPosition: " + this.endPosition);
-		Debug.Log ("transform.position: " + transform.position);
-
-		Debug.Log ("in getDoStep");
+//		Debug.Log ("startPosition: " + this.startPosition);
+//		Debug.Log ("endPosition: " + this.endPosition);
+//		Debug.Log ("transform.position: " + transform.position);
+//
+//		Debug.Log ("in getDoStep");
 		// attempts to go in a direction towards the end point - if that's not
 		// possible, travels in another direction
 
