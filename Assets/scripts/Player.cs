@@ -16,6 +16,7 @@ public class Player : MovingObject {
 	private Animator animator;					//Used to store a reference to the Player's animator component.
 	private int steps;							//Used to store player food points total during level.
 	private int stepsInShadow;
+	private int maxStepsInShadow = 4;
 	private Vector2 touchOrigin = -Vector2.one;	//Used to store location of screen touch origin for mobile controls.
 	private GameObject[] torchLights;
 	private GameObject[] mainLights;
@@ -200,13 +201,19 @@ public class Player : MovingObject {
 		//Load the last scene loaded, in this case Main, the only scene in the game.
 		Application.LoadLevel (Application.loadedLevel);
 	}
+
+	private void CheckIfGameOver() {
+		if (stepsInShadow > maxStepsInShadow) {
+			CheckIfGameOver (GameManager.GameOverReason.SHADOWS);
+		} else if (steps > GameManager.instance.MaxTurns) {
+			CheckIfGameOver (GameManager.GameOverReason.TIME);
+		} else if (wineCount == 0) {
+			CheckIfGameOver (GameManager.GameOverReason.WINE);
+		}
+	}
 	
 	//CheckIfGameOver checks if the player is out of food points and if so, ends the game.
-	private void CheckIfGameOver () {
-		if (steps > GameManager.instance.MaxTurns) {
-			GameManager.instance.GameOver ();
-		} else if (wineCount == 0) {
-			GameManager.instance.GameOver ();
-		}
+	private void CheckIfGameOver (GameManager.GameOverReason reason) {
+		GameManager.instance.GameOver (reason);
 	}
 }

@@ -17,8 +17,10 @@ public class GameManager : MonoBehaviour {
 	public GameObject canvas;
 	private GameObject overlayInstance;
 	private GameObject mainTextInstance;
-	private bool enemiesMoving;								//Boolean to check if enemies are moving.
-	
+	private bool enemiesMoving;								//Boolean to check if enemies are 
+
+	public enum GameOverReason {WINE, TIME, SHADOWS, ATTEMPTED_REGICIDE};
+
 	//Awake is always called before any Start functions
 	void Awake() {
 		//Check if instance already exists
@@ -70,10 +72,23 @@ public class GameManager : MonoBehaviour {
 	}
 	
 	//GameOver is called when the player reaches 0 food points
-	public void GameOver() {
-		//Set levelText to display number of levels passed and game over message
-		//Enable black background image gameObject.
-		ShowLevelImage("You were removed from court");
+	public void GameOver(GameOverReason reason) {
+		string failMessage = "YOU WERE REMOVED FROM COURT\n";
+		switch (reason) {
+			case GameOverReason.WINE:
+			failMessage += "You ran out of wine before reaching the King.";
+			break;
+			case GameOverReason.TIME:
+			failMessage += "You ran out of time before reaching the King.";
+			break;
+			case GameOverReason.SHADOWS:
+			failMessage += "You spent too long skulking in the shadows.";
+			break;
+			case GameOverReason.ATTEMPTED_REGICIDE:
+			failMessage += "Bodily assaulting the King is generally frowned upon.";
+			break;
+		}
+		ShowLevelImage(failMessage);
 
 		//Disable this GameManager.
 		enabled = false;
