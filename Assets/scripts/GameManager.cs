@@ -14,6 +14,7 @@ public class GameManager : MonoBehaviour {
 	//private Text levelText;									//Text to display current level number.
 	public GameObject overlay;							//Image to block out level as levels are being set up, background for levelText.
 	public GameObject mainText;
+	public GameObject canvas;
 	private GameObject overlayInstance;
 	private GameObject mainTextInstance;
 	private bool enemiesMoving;								//Boolean to check if enemies are moving.
@@ -41,19 +42,22 @@ public class GameManager : MonoBehaviour {
 	//Hides black image used between levels
 	void HideLevelImage() {
 		//Disable the levelImage gameObject.
-		if (overlayInstance != null) GameObject.Destroy(overlayInstance);
-		if (mainText != null) GameObject.Destroy(mainText);
+		if (overlayInstance != null) Transform.Destroy(overlayInstance);
+		if (mainText != null) Transform.Destroy(mainText);
 	}
 
 	void ShowLevelImage(string message) {
-		overlayInstance = Instantiate (overlay, new Vector3 (0, 0, 0f), Quaternion.identity) as GameObject;
-		mainTextInstance = Instantiate (mainText, new Vector3 (0, 0, 0f), Quaternion.identity) as GameObject;
+		Debug.Log ("ShowLevelImage()");
+		overlayInstance = Instantiate (overlay) as GameObject;
+		mainTextInstance = Instantiate (mainText) as GameObject;
 		mainTextInstance.GetComponent<Text> ().text = message;
+		overlayInstance.transform.parent = canvas.transform;
+		mainTextInstance.transform.parent = canvas.transform;
 	}
 	
 	//Update is called every frame.
 	void Update() {
-//		Debug.Log ("players turn? " + this.playersTurn + " enemy turn? " + this.enemiesMoving);
+		Debug.Log ("players turn? " + this.playersTurn + " enemy turn? " + this.enemiesMoving);
 		//Check that playersTurn or enemiesMoving or doingSetup are not currently true.
 		if (playersTurn || enemiesMoving) {
 			//If any of these are true, return and do not start MoveEnemies.
@@ -61,6 +65,7 @@ public class GameManager : MonoBehaviour {
 		}
 		
 		//Start moving enemies.
+		Debug.Log ("start moving enemies");
 		StartCoroutine (MoveEnemies ());
 	}
 	

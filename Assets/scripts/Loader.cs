@@ -9,6 +9,7 @@ public class Loader : MonoBehaviour
 	public int MaxTurns;
 	public GameObject overlay;
 	public GameObject mainText;
+	public GameObject canvas;
 	
 	
 	void Awake ()
@@ -20,6 +21,7 @@ public class Loader : MonoBehaviour
 			Instantiate(gameManager);
 
 		GameManager.instance.MaxTurns = MaxTurns;
+		GameManager.instance.canvas = canvas;
 		GameManager.instance.overlay = overlay;
 		GameManager.instance.mainText = mainText;
 		

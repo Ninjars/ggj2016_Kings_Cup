@@ -4,12 +4,12 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Player
   - Hostile
   - King
   - Exit
   - TorchLight
   - MainLight
+  - Player
   layers:
   - Default
   - TransparentFX

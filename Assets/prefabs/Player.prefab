@@ -107,6 +107,7 @@ MonoBehaviour:
     m_Bits: 512
   restartLevelDelay: 1
   stepText: {fileID: 0}
+  shadowStepText: {fileID: 0}
   moveSound1: {fileID: 0}
   moveSound2: {fileID: 0}
   gameOverSound: {fileID: 0}
@@ -155,6 +156,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 81c6660212a714f50980c21f489e4081, type: 2}
+    - target: {fileID: 0}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 142256}
