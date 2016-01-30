@@ -216,6 +216,10 @@ public class Player : MovingObject {
 	
 	//CheckIfGameOver checks if the player is out of food points and if so, ends the game.
 	private void CheckIfGameOver () {
+		if (steps > GameManager.instance.MaxTurns) {
+			GameManager.instance.GameOver ();
+		}
+			
 		//Check if food point total is less than or equal to zero.
 //			if (food <= 0) {
 //				//Call the PlaySingle function of SoundManager and pass it the gameOverSound as the audio clip to play.
