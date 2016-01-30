@@ -16,6 +16,7 @@ public class Player : MovingObject {
 	private Animator animator;					//Used to store a reference to the Player's animator component.
 	private int steps;							//Used to store player food points total during level.
 	private int stepsInShadow;
+	private int maxStepsInShadow = 4;
 	private Vector2 touchOrigin = -Vector2.one;	//Used to store location of screen touch origin for mobile controls.
 	private GameObject[] torchLights;
 	private GameObject[] mainLights;
