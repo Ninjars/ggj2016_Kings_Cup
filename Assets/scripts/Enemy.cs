@@ -3,6 +3,8 @@ using System.Collections;
 
 public class Enemy : MonoBehaviour {
 
+	public float moveTime = 0.1f;
+
 	// Use this for initialization
 	void Start () {
 	
@@ -12,4 +14,9 @@ public class Enemy : MonoBehaviour {
 	void Update () {
 	
 	}
+
+	public void MoveEnemy() {
+
+	}
+		
 }
