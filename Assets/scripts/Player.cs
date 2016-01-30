@@ -118,6 +118,8 @@ public class Player : MovingObject {
 		if (Move (xDir, yDir, out hit)) {
 			steps++;
 			updateStepsText();
+			if (steps > GameManager.instance.MaxTurns)
+				GameManager.instance.GameOver ();
 			//Call RandomizeSfx of SoundManager to play the move sound, passing in two audio clips to choose from.
 //				SoundManager.instance.RandomizeSfx (moveSound1, moveSound2);
 		}
