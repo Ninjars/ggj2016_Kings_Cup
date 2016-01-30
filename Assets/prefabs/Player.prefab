@@ -108,8 +108,9 @@ MonoBehaviour:
   restartLevelDelay: 1
   stepText: {fileID: 0}
   shadowStepText: {fileID: 0}
-  moveSound1: {fileID: 0}
-  moveSound2: {fileID: 0}
+  moveSounds:
+  - {fileID: 8300000, guid: f558a7f01c28c4c5eb5f57468b74912b, type: 3}
+  - {fileID: 8300000, guid: 65821d2fe8dc54a7384ad42fe7920650, type: 3}
   gameOverSound: {fileID: 0}
 --- !u!212 &21268986
 SpriteRenderer:
@@ -149,6 +150,10 @@ Prefab:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 0}
+      propertyPath: moveSounds.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
       propertyPath: blockingLayer.m_Bits
       value: 512
       objectReference: {fileID: 0}
@@ -160,6 +165,34 @@ Prefab:
       propertyPath: m_TagString
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: moveSound1
+      value: 
+      objectReference: {fileID: 8300000, guid: f558a7f01c28c4c5eb5f57468b74912b, type: 3}
+    - target: {fileID: 0}
+      propertyPath: moveSound2
+      value: 
+      objectReference: {fileID: 8300000, guid: 65821d2fe8dc54a7384ad42fe7920650, type: 3}
+    - target: {fileID: 0}
+      propertyPath: pourWine
+      value: 
+      objectReference: {fileID: 8300000, guid: e1179e74729db4d70bbfa1ea4062df90, type: 3}
+    - target: {fileID: 0}
+      propertyPath: pourWine1
+      value: 
+      objectReference: {fileID: 8300000, guid: e1179e74729db4d70bbfa1ea4062df90, type: 3}
+    - target: {fileID: 0}
+      propertyPath: pourWine2
+      value: 
+      objectReference: {fileID: 8300000, guid: eebba347cd93b4e1bbb41077ec580f30, type: 3}
+    - target: {fileID: 0}
+      propertyPath: moveSounds.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: f558a7f01c28c4c5eb5f57468b74912b, type: 3}
+    - target: {fileID: 0}
+      propertyPath: moveSounds.Array.data[1]
+      value: 
+      objectReference: {fileID: 8300000, guid: 65821d2fe8dc54a7384ad42fe7920650, type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 142256}
