@@ -21,10 +21,9 @@ public class Loader : MonoBehaviour
 		GameManager.instance.MaxTurns = MaxTurns;
 		GameManager.instance.canvas = canvas;
 		
-//			//Check if a SoundManager has already been assigned to static variable GameManager.instance or if it's still null
-//			if (SoundManager.instance == null)
-//				
-//				//Instantiate SoundManager prefab
-//				Instantiate(soundManager);
+        //Check if a SoundManager has already been assigned to static variable GameManager.instance or if it's still null
+        if (SoundManager.instance == null)
+		//Instantiate SoundManager prefab
+			Instantiate(soundManager);
 	}
 }

@@ -9,8 +9,8 @@ public class Player : MovingObject {
 	public float restartLevelDelay = 1f;		//Delay time in seconds to restart level.
 	public Text stepText;						//UI Text to display current player food total.
 	public Text shadowStepText;						//UI Text to display current player food total.
-	public AudioClip moveSound1;				//1 of 2 Audio clips to play when player moves.
-	public AudioClip moveSound2;				//2 of 2 Audio clips to play when player moves.
+	public AudioClip[] moveSounds;				//1 of 2 Audio clips to play when player moves.
+	public AudioClip[] pourSounds;
 	public AudioClip gameOverSound;				//Audio clip to play when player dies.
 	
 	private Animator animator;					//Used to store a reference to the Player's animator component.
@@ -145,7 +145,7 @@ public class Player : MovingObject {
 			}
 			updateShadowStepsText ();
 			//Call RandomizeSfx of SoundManager to play the move sound, passing in two audio clips to choose from.
-//				SoundManager.instance.RandomizeSfx (moveSound1, moveSound2);
+			SoundManager.instance.RandomizeSfx (moveSounds);
 		}
 		
 		//Since the player has moved and lost food points, check if the game has ended.
@@ -180,6 +180,7 @@ public class Player : MovingObject {
 		Debug.Log ("OnTriggerEnter2D");
 		//Check if the tag of the trigger collided with is Exit.
 		if (other.tag == "Exit") {
+			SoundManager.instance.RandomizeSfx (pourSounds);
 			//Invoke the Restart function to start the next level with a delay of restartLevelDelay (default 1 second).
 			Invoke ("Completed", restartLevelDelay);
 			Debug.Log ("Completed!");
