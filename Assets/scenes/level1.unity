@@ -1012,6 +1012,10 @@ Prefab:
       propertyPath: m_RootOrder
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 107422, guid: c1ed4de673eed4dd9bd10c55f92c2a3d, type: 2}
+      propertyPath: m_TagString
+      value: AmbientLight
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c1ed4de673eed4dd9bd10c55f92c2a3d, type: 2}
   m_IsPrefabParent: 0
