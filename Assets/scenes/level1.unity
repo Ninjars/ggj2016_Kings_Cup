@@ -2275,6 +2275,10 @@ Prefab:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6112678, guid: 5d4a3b39f0a6148b7bb2df7e58878a27, type: 2}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5d4a3b39f0a6148b7bb2df7e58878a27, type: 2}
   m_IsPrefabParent: 0
@@ -2297,6 +2301,8 @@ MonoBehaviour:
   blockingLayer:
     serializedVersion: 2
     m_Bits: 512
+  endX: 0
+  endY: 0
 --- !u!1001 &432623524
 Prefab:
   m_ObjectHideFlags: 0
