@@ -43,13 +43,30 @@ MonoBehaviour:
   turnDelay: 0.1
   enemies: []
   playersTurn: 1
+  MaxTurns: 10
+  overlay: {fileID: 102362, guid: ef4978adf05114e398411536f3c2572b, type: 2}
+  mainText: {fileID: 126456, guid: 5fb359a1a000a467e886205e26650963, type: 2}
+  canvas: {fileID: 0}
+  button: {fileID: 132926, guid: 48ba0dba239754cf3b2fe807d704dee1, type: 2}
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1
   serializedVersion: 2
   m_Modification:
     m_TransformParent: {fileID: 0}
-    m_Modifications: []
+    m_Modifications:
+    - target: {fileID: 0}
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 132926, guid: 48ba0dba239754cf3b2fe807d704dee1, type: 2}
+    - target: {fileID: 0}
+      propertyPath: overlay
+      value: 
+      objectReference: {fileID: 102362, guid: ef4978adf05114e398411536f3c2572b, type: 2}
+    - target: {fileID: 0}
+      propertyPath: mainText
+      value: 
+      objectReference: {fileID: 126456, guid: 5fb359a1a000a467e886205e26650963, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 109404}

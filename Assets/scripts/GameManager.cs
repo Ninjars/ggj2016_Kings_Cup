@@ -15,6 +15,7 @@ public class GameManager : MonoBehaviour {
 	public GameObject overlay;							//Image to block out level as levels are being set up, background for levelText.
 	public GameObject mainText;
 	public GameObject canvas;
+	public GameObject button;
 	private GameObject overlayInstance;
 	private GameObject mainTextInstance;
 	private bool enemiesMoving;								//Boolean to check if enemies are 
