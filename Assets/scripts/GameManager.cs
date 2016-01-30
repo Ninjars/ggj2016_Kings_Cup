@@ -140,7 +140,7 @@ public class GameManager : MonoBehaviour {
 			failMessage += "You spent too long skulking in the shadows.";
 			break;
 			case GameOverReason.ATTEMPTED_REGICIDE:
-			failMessage += "Bodily assaulting the King is generally frowned upon.";
+			failMessage += "TOO CLOSE.";
 			break;
 		}
 		ShowGameOverMessage(failMessage);
