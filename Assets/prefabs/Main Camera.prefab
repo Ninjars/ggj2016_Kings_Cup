@@ -96,6 +96,7 @@ MonoBehaviour:
   MaxTurns: 30
   overlay: {fileID: 102362, guid: ef4978adf05114e398411536f3c2572b, type: 2}
   mainText: {fileID: 126456, guid: 5fb359a1a000a467e886205e26650963, type: 2}
+  canvas: {fileID: 175048, guid: c62de8e7b42d849828e0dc3234a7c6a9, type: 2}
 --- !u!124 &12454806
 Behaviour:
   m_ObjectHideFlags: 1
@@ -122,6 +123,10 @@ Prefab:
       propertyPath: MaxTurns
       value: 30
       objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: canvas
+      value: 
+      objectReference: {fileID: 175048, guid: c62de8e7b42d849828e0dc3234a7c6a9, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 180964}
