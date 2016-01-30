@@ -3,13 +3,19 @@ using System.Collections;
 using System.Collections.Generic;
 
 public class Enemy : MovingObject {
+	private int startX;
+	private int startY;
+	public int endX;
+	public int endY;
 	private Vector2 startPosition;
 	private Vector2 endPosition;
 
 	// Use this for initialization
 	protected override void Start () {
-		this.startPosition = new Vector2 (0, 0);
-		this.endPosition = new Vector2 (5, 5);
+		startX = (int)transform.position.x;
+		startY = (int)transform.position.y;
+		this.startPosition = new Vector2 (startX, startY);
+		this.endPosition = new Vector2 (endX, endY);
 		GameManager.instance.addEnemyToList (this);
 		base.Start ();
 	}
