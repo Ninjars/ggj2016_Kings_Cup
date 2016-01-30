@@ -8,6 +8,8 @@ TagManager:
   - Hostile
   - King
   - Exit
+  - TorchLight
+  - MainLight
   layers:
   - Default
   - TransparentFX
