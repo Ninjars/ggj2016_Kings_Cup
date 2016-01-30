@@ -14,6 +14,8 @@ public class GameManager : MonoBehaviour {
 	//private Text levelText;									//Text to display current level number.
 	public GameObject overlay;							//Image to block out level as levels are being set up, background for levelText.
 	public GameObject mainText;
+	private GameObject overlayInstance;
+	private GameObject mainTextInstance;
 	private bool enemiesMoving;								//Boolean to check if enemies are moving.
 	
 	//Awake is always called before any Start functions
@@ -39,17 +41,19 @@ public class GameManager : MonoBehaviour {
 	//Hides black image used between levels
 	void HideLevelImage() {
 		//Disable the levelImage gameObject.
-		overlay.SetActive(false);
-		mainText.SetActive(false);
+		if (overlayInstance != null) GameObject.Destroy(overlayInstance);
+		if (mainText != null) GameObject.Destroy(mainText);
 	}
 
-	void ShowLevelImage() {
-		overlay.SetActive(true);
-		mainText.SetActive(true);
+	void ShowLevelImage(string message) {
+		overlayInstance = Instantiate (overlay, new Vector3 (0, 0, 0f), Quaternion.identity) as GameObject;
+		mainTextInstance = Instantiate (mainText, new Vector3 (0, 0, 0f), Quaternion.identity) as GameObject;
+		mainTextInstance.GetComponent<Text> ().text = message;
 	}
 	
 	//Update is called every frame.
 	void Update() {
+		Debug.Log ("players turn? " + this.playersTurn + " enemy turn? " + this.enemiesMoving);
 		//Check that playersTurn or enemiesMoving or doingSetup are not currently true.
 		if (playersTurn || enemiesMoving) {
 			//If any of these are true, return and do not start MoveEnemies.
@@ -64,15 +68,13 @@ public class GameManager : MonoBehaviour {
 	public void GameOver() {
 		//Set levelText to display number of levels passed and game over message
 		//Enable black background image gameObject.
-		ShowLevelImage();
-		mainText.GetComponent<Text> ().text = "You were removed from court";
+		ShowLevelImage("You were removed from court");
 
 		//Disable this GameManager.
 		enabled = false;
 	}
 
 	public void setPlayersTurn(bool playersTurn){
-		
 		this.playersTurn = playersTurn;
 		Debug.Log ("players turn set to " + this.playersTurn);
 	}
@@ -111,7 +113,7 @@ public class GameManager : MonoBehaviour {
 
 		Debug.Log ("done moving enemies");
 		//Once Enemies are done moving, set playersTurn to true so player can move.
-		playersTurn = true;
+		setPlayersTurn(true);
 		
 		//Enemies are done moving, set enemiesMoving to false.
 		enemiesMoving = false;
