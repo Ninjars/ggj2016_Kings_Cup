@@ -10,7 +10,8 @@ public abstract class MovingObject : MonoBehaviour {
 	private Rigidbody2D rb2D;				//The Rigidbody2D component attached to this object.
 	private float inverseMoveTime;			//Used to make movement more efficient.
 
-	//Protected, virtual functions can be overridden by inheriting classes.
+	protected enum Directions {LEFT, RIGHT, UP, DOWN, STAY};
+
 	protected virtual void Start() {
 		//Get a component reference to this object's BoxCollider2D
 		boxCollider = GetComponent <BoxCollider2D> ();
@@ -49,9 +50,28 @@ public abstract class MovingObject : MonoBehaviour {
 			//Return true to say that Move was successful
 			return true;
 		}
-		
+
 		//If something was hit, return false, Move was unsuccesful.
 		return false;
+	}
+
+	protected bool MoveInDirection(Directions direction) {
+		//Hit will store whatever our linecast hits when Move is called.
+		RaycastHit2D hit;
+
+		switch (direction) {
+		case Directions.LEFT:
+			return this.Move (-1, 0, out hit);
+		case Directions.RIGHT:
+			return this.Move (1, 0, out hit);
+		case Directions.UP:
+			return this.Move (0, 1, out hit);
+		case Directions.DOWN:
+			return this.Move (0, -1, out hit);
+		default:
+			return true;
+		}
+
 	}
 	
 	//Co-routine for moving units from one space to next, takes a parameter end to specify where to move to.
@@ -90,4 +110,9 @@ public abstract class MovingObject : MonoBehaviour {
 			//If nothing was hit, return and don't execute further code.
 			return;
 	}
+
+	protected virtual void CheckMove (int xDir, int yDir){
+
+
 	}
+}
