@@ -169,9 +169,8 @@ public class Player : MovingObject {
 		//Check if the tag of the trigger collided with is Exit.
 		if(other.tag == "Exit") {
 			//Invoke the Restart function to start the next level with a delay of restartLevelDelay (default 1 second).
-			//Invoke ("Restart", restartLevelDelay);
-			//Debug.Log("Success!");
-			
+			Invoke ("Restart", restartLevelDelay);
+			Debug.Log("Success!");
 			//Disable the player object since level is over.
 			enabled = false;
 		}
