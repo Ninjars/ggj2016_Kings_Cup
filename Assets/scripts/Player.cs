@@ -21,7 +21,7 @@ public class Player : MovingObject {
 	private GameObject[] torchLights;
 	private GameObject[] mainLights;
 	private float torchShadowDistance = 2f;
-	private float mainShadowDistance = 3.5f;
+	private float mainShadowDistance = 4f;
 	private int wineCount = 1;
 	
 	//Start overrides the Start function of MovingObject
@@ -149,7 +149,7 @@ public class Player : MovingObject {
 		}
 		
 		//Since the player has moved and lost food points, check if the game has ended.
-		CheckIfGameOver ();
+		GameOver ();
 		
 		//Set the playersTurn boolean of GameManager to false now that players turn is over.
 		GameManager.instance.setPlayersTurn(false);
@@ -182,39 +182,42 @@ public class Player : MovingObject {
 		if (other.tag == "Exit") {
 			SoundManager.instance.RandomizeSfx (pourSounds);
 			//Invoke the Restart function to start the next level with a delay of restartLevelDelay (default 1 second).
-			Invoke ("Restart", restartLevelDelay);
-			Debug.Log ("Success!");
-			//Disable the player object since level is over.
-			enabled = false;
+			Invoke ("Completed", restartLevelDelay);
+			Debug.Log ("Completed!");
 		} else if (other.tag == "Hostile") {
 			this.collisionWithNPC ();
+		} else if (other.tag == "King") {
+			this.AttemptRegiside ();
 		}
 	}
 
 	private void collisionWithNPC(){
 		wineCount--;
-		this.CheckIfGameOver ();
+		this.GameOver ();
 		Debug.Log ("WINE TIME");
 	}
 	
 	//Restart reloads the scene when called.
-	private void Restart () {
-		//Load the last scene loaded, in this case Main, the only scene in the game.
-		Application.LoadLevel (Application.loadedLevel);
+	private void Completed () {
+		GameManager.instance.ShowNextLevelMessage ();
 	}
 
-	private void CheckIfGameOver() {
+	private void AttemptRegiside(){
+		GameOver (GameManager.GameOverReason.ATTEMPTED_REGICIDE);
+	}
+
+	private void GameOver() {
 		if (stepsInShadow > maxStepsInShadow) {
-			CheckIfGameOver (GameManager.GameOverReason.SHADOWS);
+			GameOver (GameManager.GameOverReason.SHADOWS);
 		} else if (steps > GameManager.instance.MaxTurns) {
-			CheckIfGameOver (GameManager.GameOverReason.TIME);
+			GameOver (GameManager.GameOverReason.TIME);
 		} else if (wineCount == 0) {
-			CheckIfGameOver (GameManager.GameOverReason.WINE);
+			GameOver (GameManager.GameOverReason.WINE);
 		}
 	}
 	
 	//CheckIfGameOver checks if the player is out of food points and if so, ends the game.
-	private void CheckIfGameOver (GameManager.GameOverReason reason) {
+	private void GameOver (GameManager.GameOverReason reason) {
 		GameManager.instance.GameOver (reason);
 	}
 }
