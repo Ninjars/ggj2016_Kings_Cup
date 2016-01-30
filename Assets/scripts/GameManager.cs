@@ -5,7 +5,7 @@ using UnityEngine.UI;					//Allows us to use UI.
 
 public class GameManager : MonoBehaviour {
 	public float levelStartDelay = 2f;						//Time to wait before starting level, in seconds.
-	public float turnDelay = 0.1f;							//Delay between each Player turn.
+	public float turnDelay = 1f;							//Delay between each Player turn.
 	public static GameManager instance = null;				//Static instance of GameManager which allows it to be accessed by any other script.
 	public List<Enemy> enemies;								//List of all Enemy units, used to issue them move commands.
 	[HideInInspector] public bool playersTurn = true;		//Boolean to check if it's players turn, hidden in inspector but public.
@@ -52,8 +52,6 @@ public class GameManager : MonoBehaviour {
 	void Update() {
 		//Check that playersTurn or enemiesMoving or doingSetup are not currently true.
 		if (playersTurn || enemiesMoving) {
-
-			//Debug.Log ("player turn? " + playersTurn + " enemies moving? " + enemiesMoving);
 			//If any of these are true, return and do not start MoveEnemies.
 			return;
 		}
@@ -72,6 +70,16 @@ public class GameManager : MonoBehaviour {
 		//Disable this GameManager.
 		enabled = false;
 	}
+
+	public void setPlayersTurn(bool playersTurn){
+		
+		this.playersTurn = playersTurn;
+		Debug.Log ("players turn set to " + this.playersTurn);
+	}
+
+	public void addEnemyToList(Enemy enemy){
+		enemies.Add (enemy);
+	}
 	
 	//Coroutine to move enemies in sequence.
 	IEnumerator MoveEnemies() {
@@ -89,10 +97,11 @@ public class GameManager : MonoBehaviour {
 			//Wait for turnDelay seconds between moves, replaces delay caused by enemies moving when there are none.
 			yield return new WaitForSeconds(turnDelay);
 		}
-		
+
 		//Loop through List of Enemy objects.
 		for (int i = 0; i < enemies.Count; i++)
 		{
+			Debug.Log ("Moving an enemy");
 			//Call the MoveEnemy function of Enemy at index i in the enemies List.
 			enemies[i].MoveEnemy ();
 			

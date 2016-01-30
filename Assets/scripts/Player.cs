@@ -39,6 +39,7 @@ public class Player : MovingObject {
 		
 		//Call the Start function of the MovingObject base class.
 		base.Start ();
+
 	}
 
 	private void updateStepsText() {
@@ -149,7 +150,7 @@ public class Player : MovingObject {
 		CheckIfGameOver ();
 		
 		//Set the playersTurn boolean of GameManager to false now that players turn is over.
-		GameManager.instance.playersTurn = false;
+		GameManager.instance.setPlayersTurn(false);
 	}
 
 	private bool checkInLight() {
