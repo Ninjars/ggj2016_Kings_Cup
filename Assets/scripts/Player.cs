@@ -149,7 +149,7 @@ public class Player : MovingObject {
 		}
 		
 		//Since the player has moved and lost food points, check if the game has ended.
-		CheckIfGameOver ();
+		GameOver ();
 		
 		//Set the playersTurn boolean of GameManager to false now that players turn is over.
 		GameManager.instance.setPlayersTurn(false);
@@ -194,7 +194,7 @@ public class Player : MovingObject {
 
 	private void collisionWithNPC(){
 		wineCount--;
-		this.CheckIfGameOver ();
+		this.GameOver ();
 		Debug.Log ("WINE TIME");
 	}
 	
@@ -205,20 +205,21 @@ public class Player : MovingObject {
 	}
 
 	private void AttemptRegiside(){
+		GameOver (GameManager.GameOverReason.ATTEMPTED_REGICIDE);
 	}
 
-	private void CheckIfGameOver() {
+	private void GameOver() {
 		if (stepsInShadow > maxStepsInShadow) {
-			CheckIfGameOver (GameManager.GameOverReason.SHADOWS);
+			GameOver (GameManager.GameOverReason.SHADOWS);
 		} else if (steps > GameManager.instance.MaxTurns) {
-			CheckIfGameOver (GameManager.GameOverReason.TIME);
+			GameOver (GameManager.GameOverReason.TIME);
 		} else if (wineCount == 0) {
-			CheckIfGameOver (GameManager.GameOverReason.WINE);
+			GameOver (GameManager.GameOverReason.WINE);
 		}
 	}
 	
 	//CheckIfGameOver checks if the player is out of food points and if so, ends the game.
-	private void CheckIfGameOver (GameManager.GameOverReason reason) {
+	private void GameOver (GameManager.GameOverReason reason) {
 		GameManager.instance.GameOver (reason);
 	}
 }
