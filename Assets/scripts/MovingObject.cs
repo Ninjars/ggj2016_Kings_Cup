@@ -110,9 +110,4 @@ public abstract class MovingObject : MonoBehaviour {
 			//If nothing was hit, return and don't execute further code.
 			return;
 	}
-
-	protected virtual void CheckMove (int xDir, int yDir){
-
-
-	}
 }

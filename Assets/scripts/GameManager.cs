@@ -52,8 +52,6 @@ public class GameManager : MonoBehaviour {
 	void Update() {
 		//Check that playersTurn or enemiesMoving or doingSetup are not currently true.
 		if (playersTurn || enemiesMoving) {
-
-			//Debug.Log ("player turn? " + playersTurn + " enemies moving? " + enemiesMoving);
 			//If any of these are true, return and do not start MoveEnemies.
 			return;
 		}

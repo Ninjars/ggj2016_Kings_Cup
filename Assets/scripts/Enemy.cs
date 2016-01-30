@@ -5,13 +5,11 @@ using System.Collections.Generic;
 public class Enemy : MovingObject {
 	private Vector2 startPosition;
 	private Vector2 endPosition;
-	private Vector2 currentPosition;
 
 	// Use this for initialization
 	protected override void Start () {
-		startPosition = new Vector2 (0, 0);
-		currentPosition = new Vector2 (0, 0);
-		endPosition = new Vector2 (10, 10);
+		this.startPosition = new Vector2 (0, 0);
+		this.endPosition = new Vector2 (5, 5);
 		GameManager.instance.addEnemyToList (this);
 		base.Start ();
 	}
@@ -23,30 +21,40 @@ public class Enemy : MovingObject {
 
 	public void MoveEnemy() {
 		// If we've reached the end position, we want to head back to the start position
-		if (currentPosition == endPosition) {
+		if (transform.position.x == endPosition.x && transform.position.y == endPosition.y) {
+			Debug.Log ("reached end");
 			endPosition = startPosition;
-			startPosition = currentPosition;
+			startPosition = new Vector2(transform.position.x, transform.position.y);
 		}
 
 		bool moved = false;
 		List<Directions> failedMoves = new List<Directions>();
 		while (!moved && failedMoves.Count < 4) {
+			Debug.Log ("hello from moved loop");
 			Directions next_step = this.getDoStep (failedMoves);
 			moved = this.MoveInDirection (next_step);
+			if (!moved) {
+				failedMoves.Add (next_step);
+			}
 		}
 	}
 
 	protected Directions getDoStep(List<Directions> failedMoves){
+		Debug.Log ("startPosition: " + this.startPosition);
+		Debug.Log ("endPosition: " + this.endPosition);
+		Debug.Log ("transform.position: " + transform.position);
+
+		Debug.Log ("in getDoStep");
 		// attempts to go in a direction towards the end point - if that's not
 		// possible, travels in another direction
 
-		if (currentPosition.x > endPosition.x || (failedMoves.Count >= 2 && !(failedMoves.Contains(Directions.LEFT)))) {
+		if (transform.position.x > endPosition.x || (failedMoves.Count >= 2 && !(failedMoves.Contains(Directions.LEFT)))) {
 			return Directions.LEFT;
-		} else if (currentPosition.x < endPosition.x || (failedMoves.Count >= 2 && !(failedMoves.Contains(Directions.RIGHT)))) {
+		} else if (transform.position.x < endPosition.x || (failedMoves.Count >= 2 && !(failedMoves.Contains(Directions.RIGHT)))) {
 			return Directions.RIGHT;
-		} else if (currentPosition.y > endPosition.y || (failedMoves.Count >= 2 && !(failedMoves.Contains(Directions.DOWN)))) {
+		} else if (transform.position.y > endPosition.y || (failedMoves.Count >= 2 && !(failedMoves.Contains(Directions.DOWN)))) {
 			return Directions.DOWN;
-		} else if (currentPosition.y < endPosition.y || (failedMoves.Count >= 2 && !(failedMoves.Contains(Directions.UP)))) {
+		} else if (transform.position.y < endPosition.y || (failedMoves.Count >= 2 && !(failedMoves.Contains(Directions.UP)))) {
 			return Directions.UP;
 		}
 

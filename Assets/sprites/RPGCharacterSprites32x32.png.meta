@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 089da16ae7df84c1a8aa482fe1f7da8e
-timeCreated: 1454155576
+timeCreated: 1454174421
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -309,14 +309,14 @@ TextureImporter:
         y: 640
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_1
       rect:
         serializedVersion: 2
@@ -324,14 +324,14 @@ TextureImporter:
         y: 640
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_2
       rect:
         serializedVersion: 2
@@ -339,14 +339,14 @@ TextureImporter:
         y: 640
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_3
       rect:
         serializedVersion: 2
@@ -354,14 +354,14 @@ TextureImporter:
         y: 640
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_4
       rect:
         serializedVersion: 2
@@ -369,14 +369,14 @@ TextureImporter:
         y: 640
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_5
       rect:
         serializedVersion: 2
@@ -384,14 +384,14 @@ TextureImporter:
         y: 640
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_6
       rect:
         serializedVersion: 2
@@ -399,14 +399,14 @@ TextureImporter:
         y: 640
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_7
       rect:
         serializedVersion: 2
@@ -414,14 +414,14 @@ TextureImporter:
         y: 640
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_8
       rect:
         serializedVersion: 2
@@ -429,14 +429,14 @@ TextureImporter:
         y: 640
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_9
       rect:
         serializedVersion: 2
@@ -444,14 +444,14 @@ TextureImporter:
         y: 640
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_10
       rect:
         serializedVersion: 2
@@ -459,14 +459,14 @@ TextureImporter:
         y: 640
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_11
       rect:
         serializedVersion: 2
@@ -474,14 +474,14 @@ TextureImporter:
         y: 640
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_12
       rect:
         serializedVersion: 2
@@ -489,14 +489,14 @@ TextureImporter:
         y: 608
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_13
       rect:
         serializedVersion: 2
@@ -504,14 +504,14 @@ TextureImporter:
         y: 608
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_14
       rect:
         serializedVersion: 2
@@ -519,14 +519,14 @@ TextureImporter:
         y: 608
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_15
       rect:
         serializedVersion: 2
@@ -534,14 +534,14 @@ TextureImporter:
         y: 608
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_16
       rect:
         serializedVersion: 2
@@ -549,14 +549,14 @@ TextureImporter:
         y: 608
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_17
       rect:
         serializedVersion: 2
@@ -564,14 +564,14 @@ TextureImporter:
         y: 608
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_18
       rect:
         serializedVersion: 2
@@ -579,14 +579,14 @@ TextureImporter:
         y: 608
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_19
       rect:
         serializedVersion: 2
@@ -594,14 +594,14 @@ TextureImporter:
         y: 608
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_20
       rect:
         serializedVersion: 2
@@ -609,14 +609,14 @@ TextureImporter:
         y: 608
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_21
       rect:
         serializedVersion: 2
@@ -624,14 +624,14 @@ TextureImporter:
         y: 608
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_22
       rect:
         serializedVersion: 2
@@ -639,14 +639,14 @@ TextureImporter:
         y: 608
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_23
       rect:
         serializedVersion: 2
@@ -654,14 +654,14 @@ TextureImporter:
         y: 608
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_24
       rect:
         serializedVersion: 2
@@ -669,14 +669,14 @@ TextureImporter:
         y: 576
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_25
       rect:
         serializedVersion: 2
@@ -684,14 +684,14 @@ TextureImporter:
         y: 576
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_26
       rect:
         serializedVersion: 2
@@ -699,14 +699,14 @@ TextureImporter:
         y: 576
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_27
       rect:
         serializedVersion: 2
@@ -714,14 +714,14 @@ TextureImporter:
         y: 576
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_28
       rect:
         serializedVersion: 2
@@ -729,14 +729,14 @@ TextureImporter:
         y: 576
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_29
       rect:
         serializedVersion: 2
@@ -744,14 +744,14 @@ TextureImporter:
         y: 576
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_30
       rect:
         serializedVersion: 2
@@ -759,14 +759,14 @@ TextureImporter:
         y: 576
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_31
       rect:
         serializedVersion: 2
@@ -774,14 +774,14 @@ TextureImporter:
         y: 576
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_32
       rect:
         serializedVersion: 2
@@ -789,14 +789,14 @@ TextureImporter:
         y: 576
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_33
       rect:
         serializedVersion: 2
@@ -804,14 +804,14 @@ TextureImporter:
         y: 576
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_34
       rect:
         serializedVersion: 2
@@ -819,14 +819,14 @@ TextureImporter:
         y: 576
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_35
       rect:
         serializedVersion: 2
@@ -834,14 +834,14 @@ TextureImporter:
         y: 576
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_36
       rect:
         serializedVersion: 2
@@ -849,14 +849,14 @@ TextureImporter:
         y: 544
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_37
       rect:
         serializedVersion: 2
@@ -864,14 +864,14 @@ TextureImporter:
         y: 544
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_38
       rect:
         serializedVersion: 2
@@ -879,14 +879,14 @@ TextureImporter:
         y: 544
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_39
       rect:
         serializedVersion: 2
@@ -894,14 +894,14 @@ TextureImporter:
         y: 544
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_40
       rect:
         serializedVersion: 2
@@ -909,14 +909,14 @@ TextureImporter:
         y: 544
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_41
       rect:
         serializedVersion: 2
@@ -924,14 +924,14 @@ TextureImporter:
         y: 544
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_42
       rect:
         serializedVersion: 2
@@ -939,14 +939,14 @@ TextureImporter:
         y: 544
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_43
       rect:
         serializedVersion: 2
@@ -954,14 +954,14 @@ TextureImporter:
         y: 544
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_44
       rect:
         serializedVersion: 2
@@ -969,14 +969,14 @@ TextureImporter:
         y: 544
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_45
       rect:
         serializedVersion: 2
@@ -984,14 +984,14 @@ TextureImporter:
         y: 544
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_46
       rect:
         serializedVersion: 2
@@ -999,14 +999,14 @@ TextureImporter:
         y: 544
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_47
       rect:
         serializedVersion: 2
@@ -1014,14 +1014,14 @@ TextureImporter:
         y: 544
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_48
       rect:
         serializedVersion: 2
@@ -1029,14 +1029,14 @@ TextureImporter:
         y: 512
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_49
       rect:
         serializedVersion: 2
@@ -1044,14 +1044,14 @@ TextureImporter:
         y: 512
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_50
       rect:
         serializedVersion: 2
@@ -1059,14 +1059,14 @@ TextureImporter:
         y: 512
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_51
       rect:
         serializedVersion: 2
@@ -1074,14 +1074,14 @@ TextureImporter:
         y: 512
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_52
       rect:
         serializedVersion: 2
@@ -1089,14 +1089,14 @@ TextureImporter:
         y: 512
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_53
       rect:
         serializedVersion: 2
@@ -1104,14 +1104,14 @@ TextureImporter:
         y: 512
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_54
       rect:
         serializedVersion: 2
@@ -1119,14 +1119,14 @@ TextureImporter:
         y: 512
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_55
       rect:
         serializedVersion: 2
@@ -1134,14 +1134,14 @@ TextureImporter:
         y: 512
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_56
       rect:
         serializedVersion: 2
@@ -1149,14 +1149,14 @@ TextureImporter:
         y: 512
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_57
       rect:
         serializedVersion: 2
@@ -1164,14 +1164,14 @@ TextureImporter:
         y: 512
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_58
       rect:
         serializedVersion: 2
@@ -1179,14 +1179,14 @@ TextureImporter:
         y: 512
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_59
       rect:
         serializedVersion: 2
@@ -1194,14 +1194,14 @@ TextureImporter:
         y: 512
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_60
       rect:
         serializedVersion: 2
@@ -1209,14 +1209,14 @@ TextureImporter:
         y: 480
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_61
       rect:
         serializedVersion: 2
@@ -1224,14 +1224,14 @@ TextureImporter:
         y: 480
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_62
       rect:
         serializedVersion: 2
@@ -1239,14 +1239,14 @@ TextureImporter:
         y: 480
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_63
       rect:
         serializedVersion: 2
@@ -1254,14 +1254,14 @@ TextureImporter:
         y: 480
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_64
       rect:
         serializedVersion: 2
@@ -1269,14 +1269,14 @@ TextureImporter:
         y: 480
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_65
       rect:
         serializedVersion: 2
@@ -1284,14 +1284,14 @@ TextureImporter:
         y: 480
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_66
       rect:
         serializedVersion: 2
@@ -1299,14 +1299,14 @@ TextureImporter:
         y: 480
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_67
       rect:
         serializedVersion: 2
@@ -1314,14 +1314,14 @@ TextureImporter:
         y: 480
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_68
       rect:
         serializedVersion: 2
@@ -1329,14 +1329,14 @@ TextureImporter:
         y: 480
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_69
       rect:
         serializedVersion: 2
@@ -1344,14 +1344,14 @@ TextureImporter:
         y: 480
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_70
       rect:
         serializedVersion: 2
@@ -1359,14 +1359,14 @@ TextureImporter:
         y: 480
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_71
       rect:
         serializedVersion: 2
@@ -1374,14 +1374,14 @@ TextureImporter:
         y: 480
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_72
       rect:
         serializedVersion: 2
@@ -1389,14 +1389,14 @@ TextureImporter:
         y: 448
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_73
       rect:
         serializedVersion: 2
@@ -1404,14 +1404,14 @@ TextureImporter:
         y: 448
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_74
       rect:
         serializedVersion: 2
@@ -1419,14 +1419,14 @@ TextureImporter:
         y: 448
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_75
       rect:
         serializedVersion: 2
@@ -1434,14 +1434,14 @@ TextureImporter:
         y: 448
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_76
       rect:
         serializedVersion: 2
@@ -1449,14 +1449,14 @@ TextureImporter:
         y: 448
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_77
       rect:
         serializedVersion: 2
@@ -1464,14 +1464,14 @@ TextureImporter:
         y: 448
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_78
       rect:
         serializedVersion: 2
@@ -1479,14 +1479,14 @@ TextureImporter:
         y: 448
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_79
       rect:
         serializedVersion: 2
@@ -1494,14 +1494,14 @@ TextureImporter:
         y: 448
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_80
       rect:
         serializedVersion: 2
@@ -1509,14 +1509,14 @@ TextureImporter:
         y: 448
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_81
       rect:
         serializedVersion: 2
@@ -1524,14 +1524,14 @@ TextureImporter:
         y: 448
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_82
       rect:
         serializedVersion: 2
@@ -1539,14 +1539,14 @@ TextureImporter:
         y: 448
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_83
       rect:
         serializedVersion: 2
@@ -1554,14 +1554,14 @@ TextureImporter:
         y: 448
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_84
       rect:
         serializedVersion: 2
@@ -1569,14 +1569,14 @@ TextureImporter:
         y: 416
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_85
       rect:
         serializedVersion: 2
@@ -1584,14 +1584,14 @@ TextureImporter:
         y: 416
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_86
       rect:
         serializedVersion: 2
@@ -1599,14 +1599,14 @@ TextureImporter:
         y: 416
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_87
       rect:
         serializedVersion: 2
@@ -1614,14 +1614,14 @@ TextureImporter:
         y: 416
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_88
       rect:
         serializedVersion: 2
@@ -1629,14 +1629,14 @@ TextureImporter:
         y: 416
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_89
       rect:
         serializedVersion: 2
@@ -1644,14 +1644,14 @@ TextureImporter:
         y: 416
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_90
       rect:
         serializedVersion: 2
@@ -1659,14 +1659,14 @@ TextureImporter:
         y: 416
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_91
       rect:
         serializedVersion: 2
@@ -1674,14 +1674,14 @@ TextureImporter:
         y: 416
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_92
       rect:
         serializedVersion: 2
@@ -1689,14 +1689,14 @@ TextureImporter:
         y: 416
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_93
       rect:
         serializedVersion: 2
@@ -1704,14 +1704,14 @@ TextureImporter:
         y: 416
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_94
       rect:
         serializedVersion: 2
@@ -1719,14 +1719,14 @@ TextureImporter:
         y: 416
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_95
       rect:
         serializedVersion: 2
@@ -1734,14 +1734,14 @@ TextureImporter:
         y: 416
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_96
       rect:
         serializedVersion: 2
@@ -1749,14 +1749,14 @@ TextureImporter:
         y: 384
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_97
       rect:
         serializedVersion: 2
@@ -1764,14 +1764,14 @@ TextureImporter:
         y: 384
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_98
       rect:
         serializedVersion: 2
@@ -1779,14 +1779,14 @@ TextureImporter:
         y: 384
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_99
       rect:
         serializedVersion: 2
@@ -1794,14 +1794,14 @@ TextureImporter:
         y: 384
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_100
       rect:
         serializedVersion: 2
@@ -1809,14 +1809,14 @@ TextureImporter:
         y: 384
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_101
       rect:
         serializedVersion: 2
@@ -1824,14 +1824,14 @@ TextureImporter:
         y: 384
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_102
       rect:
         serializedVersion: 2
@@ -1839,14 +1839,14 @@ TextureImporter:
         y: 384
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_103
       rect:
         serializedVersion: 2
@@ -1854,14 +1854,14 @@ TextureImporter:
         y: 384
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_104
       rect:
         serializedVersion: 2
@@ -1869,14 +1869,14 @@ TextureImporter:
         y: 384
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_105
       rect:
         serializedVersion: 2
@@ -1884,14 +1884,14 @@ TextureImporter:
         y: 384
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_106
       rect:
         serializedVersion: 2
@@ -1899,14 +1899,14 @@ TextureImporter:
         y: 384
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_107
       rect:
         serializedVersion: 2
@@ -1914,14 +1914,14 @@ TextureImporter:
         y: 384
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_108
       rect:
         serializedVersion: 2
@@ -1929,14 +1929,14 @@ TextureImporter:
         y: 352
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_109
       rect:
         serializedVersion: 2
@@ -1944,14 +1944,14 @@ TextureImporter:
         y: 352
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_110
       rect:
         serializedVersion: 2
@@ -1959,14 +1959,14 @@ TextureImporter:
         y: 352
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_111
       rect:
         serializedVersion: 2
@@ -1974,14 +1974,14 @@ TextureImporter:
         y: 352
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_112
       rect:
         serializedVersion: 2
@@ -1989,14 +1989,14 @@ TextureImporter:
         y: 352
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_113
       rect:
         serializedVersion: 2
@@ -2004,14 +2004,14 @@ TextureImporter:
         y: 352
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_114
       rect:
         serializedVersion: 2
@@ -2019,14 +2019,14 @@ TextureImporter:
         y: 352
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_115
       rect:
         serializedVersion: 2
@@ -2034,14 +2034,14 @@ TextureImporter:
         y: 352
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_116
       rect:
         serializedVersion: 2
@@ -2049,14 +2049,14 @@ TextureImporter:
         y: 352
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_117
       rect:
         serializedVersion: 2
@@ -2064,14 +2064,14 @@ TextureImporter:
         y: 352
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_118
       rect:
         serializedVersion: 2
@@ -2079,14 +2079,14 @@ TextureImporter:
         y: 352
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_119
       rect:
         serializedVersion: 2
@@ -2094,14 +2094,14 @@ TextureImporter:
         y: 352
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_120
       rect:
         serializedVersion: 2
@@ -2109,14 +2109,14 @@ TextureImporter:
         y: 320
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_121
       rect:
         serializedVersion: 2
@@ -2124,14 +2124,14 @@ TextureImporter:
         y: 320
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_122
       rect:
         serializedVersion: 2
@@ -2139,14 +2139,14 @@ TextureImporter:
         y: 320
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_123
       rect:
         serializedVersion: 2
@@ -2154,14 +2154,14 @@ TextureImporter:
         y: 320
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_124
       rect:
         serializedVersion: 2
@@ -2169,14 +2169,14 @@ TextureImporter:
         y: 320
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_125
       rect:
         serializedVersion: 2
@@ -2184,14 +2184,14 @@ TextureImporter:
         y: 320
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_126
       rect:
         serializedVersion: 2
@@ -2199,14 +2199,14 @@ TextureImporter:
         y: 320
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_127
       rect:
         serializedVersion: 2
@@ -2214,14 +2214,14 @@ TextureImporter:
         y: 320
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_128
       rect:
         serializedVersion: 2
@@ -2229,14 +2229,14 @@ TextureImporter:
         y: 320
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_129
       rect:
         serializedVersion: 2
@@ -2244,14 +2244,14 @@ TextureImporter:
         y: 320
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_130
       rect:
         serializedVersion: 2
@@ -2259,14 +2259,14 @@ TextureImporter:
         y: 320
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_131
       rect:
         serializedVersion: 2
@@ -2274,14 +2274,14 @@ TextureImporter:
         y: 320
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_132
       rect:
         serializedVersion: 2
@@ -2289,14 +2289,14 @@ TextureImporter:
         y: 288
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_133
       rect:
         serializedVersion: 2
@@ -2304,14 +2304,14 @@ TextureImporter:
         y: 288
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_134
       rect:
         serializedVersion: 2
@@ -2319,14 +2319,14 @@ TextureImporter:
         y: 288
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_135
       rect:
         serializedVersion: 2
@@ -2334,14 +2334,14 @@ TextureImporter:
         y: 288
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_136
       rect:
         serializedVersion: 2
@@ -2349,14 +2349,14 @@ TextureImporter:
         y: 288
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_137
       rect:
         serializedVersion: 2
@@ -2364,14 +2364,14 @@ TextureImporter:
         y: 288
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_138
       rect:
         serializedVersion: 2
@@ -2379,14 +2379,14 @@ TextureImporter:
         y: 288
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_139
       rect:
         serializedVersion: 2
@@ -2394,14 +2394,14 @@ TextureImporter:
         y: 288
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_140
       rect:
         serializedVersion: 2
@@ -2409,14 +2409,14 @@ TextureImporter:
         y: 288
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_141
       rect:
         serializedVersion: 2
@@ -2424,14 +2424,14 @@ TextureImporter:
         y: 288
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_142
       rect:
         serializedVersion: 2
@@ -2439,14 +2439,14 @@ TextureImporter:
         y: 288
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_143
       rect:
         serializedVersion: 2
@@ -2454,14 +2454,14 @@ TextureImporter:
         y: 288
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_144
       rect:
         serializedVersion: 2
@@ -2469,14 +2469,14 @@ TextureImporter:
         y: 256
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_145
       rect:
         serializedVersion: 2
@@ -2484,14 +2484,14 @@ TextureImporter:
         y: 256
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_146
       rect:
         serializedVersion: 2
@@ -2499,14 +2499,14 @@ TextureImporter:
         y: 256
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_147
       rect:
         serializedVersion: 2
@@ -2514,14 +2514,14 @@ TextureImporter:
         y: 256
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_148
       rect:
         serializedVersion: 2
@@ -2529,14 +2529,14 @@ TextureImporter:
         y: 256
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_149
       rect:
         serializedVersion: 2
@@ -2544,14 +2544,14 @@ TextureImporter:
         y: 256
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_150
       rect:
         serializedVersion: 2
@@ -2559,14 +2559,14 @@ TextureImporter:
         y: 256
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_151
       rect:
         serializedVersion: 2
@@ -2574,14 +2574,14 @@ TextureImporter:
         y: 256
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_152
       rect:
         serializedVersion: 2
@@ -2589,14 +2589,14 @@ TextureImporter:
         y: 256
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_153
       rect:
         serializedVersion: 2
@@ -2604,14 +2604,14 @@ TextureImporter:
         y: 256
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_154
       rect:
         serializedVersion: 2
@@ -2619,14 +2619,14 @@ TextureImporter:
         y: 256
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_155
       rect:
         serializedVersion: 2
@@ -2634,14 +2634,14 @@ TextureImporter:
         y: 256
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_156
       rect:
         serializedVersion: 2
@@ -2649,14 +2649,14 @@ TextureImporter:
         y: 224
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_157
       rect:
         serializedVersion: 2
@@ -2664,14 +2664,14 @@ TextureImporter:
         y: 224
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_158
       rect:
         serializedVersion: 2
@@ -2679,14 +2679,14 @@ TextureImporter:
         y: 224
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_159
       rect:
         serializedVersion: 2
@@ -2694,14 +2694,14 @@ TextureImporter:
         y: 224
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_160
       rect:
         serializedVersion: 2
@@ -2709,14 +2709,14 @@ TextureImporter:
         y: 224
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_161
       rect:
         serializedVersion: 2
@@ -2724,14 +2724,14 @@ TextureImporter:
         y: 224
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_162
       rect:
         serializedVersion: 2
@@ -2739,14 +2739,14 @@ TextureImporter:
         y: 224
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_163
       rect:
         serializedVersion: 2
@@ -2754,14 +2754,14 @@ TextureImporter:
         y: 224
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_164
       rect:
         serializedVersion: 2
@@ -2769,14 +2769,14 @@ TextureImporter:
         y: 224
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_165
       rect:
         serializedVersion: 2
@@ -2784,14 +2784,14 @@ TextureImporter:
         y: 224
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_166
       rect:
         serializedVersion: 2
@@ -2799,14 +2799,14 @@ TextureImporter:
         y: 224
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_167
       rect:
         serializedVersion: 2
@@ -2814,14 +2814,14 @@ TextureImporter:
         y: 224
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_168
       rect:
         serializedVersion: 2
@@ -2829,14 +2829,14 @@ TextureImporter:
         y: 192
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_169
       rect:
         serializedVersion: 2
@@ -2844,14 +2844,14 @@ TextureImporter:
         y: 192
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_170
       rect:
         serializedVersion: 2
@@ -2859,14 +2859,14 @@ TextureImporter:
         y: 192
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_171
       rect:
         serializedVersion: 2
@@ -2874,14 +2874,14 @@ TextureImporter:
         y: 192
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_172
       rect:
         serializedVersion: 2
@@ -2889,14 +2889,14 @@ TextureImporter:
         y: 192
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_173
       rect:
         serializedVersion: 2
@@ -2904,14 +2904,14 @@ TextureImporter:
         y: 192
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_174
       rect:
         serializedVersion: 2
@@ -2919,14 +2919,14 @@ TextureImporter:
         y: 192
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_175
       rect:
         serializedVersion: 2
@@ -2934,14 +2934,14 @@ TextureImporter:
         y: 192
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_176
       rect:
         serializedVersion: 2
@@ -2949,14 +2949,14 @@ TextureImporter:
         y: 192
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_177
       rect:
         serializedVersion: 2
@@ -2964,14 +2964,14 @@ TextureImporter:
         y: 192
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_178
       rect:
         serializedVersion: 2
@@ -2979,14 +2979,14 @@ TextureImporter:
         y: 192
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_179
       rect:
         serializedVersion: 2
@@ -2994,14 +2994,14 @@ TextureImporter:
         y: 192
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_180
       rect:
         serializedVersion: 2
@@ -3009,14 +3009,14 @@ TextureImporter:
         y: 160
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_181
       rect:
         serializedVersion: 2
@@ -3024,14 +3024,14 @@ TextureImporter:
         y: 160
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_182
       rect:
         serializedVersion: 2
@@ -3039,14 +3039,14 @@ TextureImporter:
         y: 160
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_183
       rect:
         serializedVersion: 2
@@ -3054,14 +3054,14 @@ TextureImporter:
         y: 160
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_184
       rect:
         serializedVersion: 2
@@ -3069,14 +3069,14 @@ TextureImporter:
         y: 160
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_185
       rect:
         serializedVersion: 2
@@ -3084,14 +3084,14 @@ TextureImporter:
         y: 160
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_186
       rect:
         serializedVersion: 2
@@ -3099,14 +3099,14 @@ TextureImporter:
         y: 160
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_187
       rect:
         serializedVersion: 2
@@ -3114,14 +3114,14 @@ TextureImporter:
         y: 160
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_188
       rect:
         serializedVersion: 2
@@ -3129,14 +3129,14 @@ TextureImporter:
         y: 160
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_189
       rect:
         serializedVersion: 2
@@ -3144,14 +3144,14 @@ TextureImporter:
         y: 160
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_190
       rect:
         serializedVersion: 2
@@ -3159,14 +3159,14 @@ TextureImporter:
         y: 160
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_191
       rect:
         serializedVersion: 2
@@ -3174,14 +3174,14 @@ TextureImporter:
         y: 160
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_192
       rect:
         serializedVersion: 2
@@ -3189,14 +3189,14 @@ TextureImporter:
         y: 128
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_193
       rect:
         serializedVersion: 2
@@ -3204,14 +3204,14 @@ TextureImporter:
         y: 128
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_194
       rect:
         serializedVersion: 2
@@ -3219,14 +3219,14 @@ TextureImporter:
         y: 128
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_195
       rect:
         serializedVersion: 2
@@ -3234,14 +3234,14 @@ TextureImporter:
         y: 128
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_196
       rect:
         serializedVersion: 2
@@ -3249,14 +3249,14 @@ TextureImporter:
         y: 128
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_197
       rect:
         serializedVersion: 2
@@ -3264,14 +3264,14 @@ TextureImporter:
         y: 128
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_198
       rect:
         serializedVersion: 2
@@ -3279,14 +3279,14 @@ TextureImporter:
         y: 128
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_199
       rect:
         serializedVersion: 2
@@ -3294,14 +3294,14 @@ TextureImporter:
         y: 128
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_200
       rect:
         serializedVersion: 2
@@ -3309,14 +3309,14 @@ TextureImporter:
         y: 128
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_201
       rect:
         serializedVersion: 2
@@ -3324,14 +3324,14 @@ TextureImporter:
         y: 128
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_202
       rect:
         serializedVersion: 2
@@ -3339,14 +3339,14 @@ TextureImporter:
         y: 128
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_203
       rect:
         serializedVersion: 2
@@ -3354,14 +3354,14 @@ TextureImporter:
         y: 128
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_204
       rect:
         serializedVersion: 2
@@ -3369,14 +3369,14 @@ TextureImporter:
         y: 96
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_205
       rect:
         serializedVersion: 2
@@ -3384,14 +3384,14 @@ TextureImporter:
         y: 96
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_206
       rect:
         serializedVersion: 2
@@ -3399,14 +3399,14 @@ TextureImporter:
         y: 96
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_207
       rect:
         serializedVersion: 2
@@ -3414,14 +3414,14 @@ TextureImporter:
         y: 96
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_208
       rect:
         serializedVersion: 2
@@ -3429,14 +3429,14 @@ TextureImporter:
         y: 96
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_209
       rect:
         serializedVersion: 2
@@ -3444,14 +3444,14 @@ TextureImporter:
         y: 96
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_210
       rect:
         serializedVersion: 2
@@ -3459,14 +3459,14 @@ TextureImporter:
         y: 96
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_211
       rect:
         serializedVersion: 2
@@ -3474,14 +3474,14 @@ TextureImporter:
         y: 96
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_212
       rect:
         serializedVersion: 2
@@ -3489,14 +3489,14 @@ TextureImporter:
         y: 96
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_213
       rect:
         serializedVersion: 2
@@ -3504,14 +3504,14 @@ TextureImporter:
         y: 96
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_214
       rect:
         serializedVersion: 2
@@ -3519,14 +3519,14 @@ TextureImporter:
         y: 96
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_215
       rect:
         serializedVersion: 2
@@ -3534,14 +3534,14 @@ TextureImporter:
         y: 96
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_216
       rect:
         serializedVersion: 2
@@ -3549,14 +3549,14 @@ TextureImporter:
         y: 64
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_217
       rect:
         serializedVersion: 2
@@ -3564,14 +3564,14 @@ TextureImporter:
         y: 64
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_218
       rect:
         serializedVersion: 2
@@ -3579,14 +3579,14 @@ TextureImporter:
         y: 64
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_219
       rect:
         serializedVersion: 2
@@ -3594,14 +3594,14 @@ TextureImporter:
         y: 64
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_220
       rect:
         serializedVersion: 2
@@ -3609,14 +3609,14 @@ TextureImporter:
         y: 64
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_221
       rect:
         serializedVersion: 2
@@ -3624,14 +3624,14 @@ TextureImporter:
         y: 64
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_222
       rect:
         serializedVersion: 2
@@ -3639,14 +3639,14 @@ TextureImporter:
         y: 64
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_223
       rect:
         serializedVersion: 2
@@ -3654,14 +3654,14 @@ TextureImporter:
         y: 64
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_224
       rect:
         serializedVersion: 2
@@ -3669,14 +3669,14 @@ TextureImporter:
         y: 64
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_225
       rect:
         serializedVersion: 2
@@ -3684,14 +3684,14 @@ TextureImporter:
         y: 64
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_226
       rect:
         serializedVersion: 2
@@ -3699,14 +3699,14 @@ TextureImporter:
         y: 64
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_227
       rect:
         serializedVersion: 2
@@ -3714,14 +3714,14 @@ TextureImporter:
         y: 64
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_228
       rect:
         serializedVersion: 2
@@ -3729,14 +3729,14 @@ TextureImporter:
         y: 32
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_229
       rect:
         serializedVersion: 2
@@ -3744,14 +3744,14 @@ TextureImporter:
         y: 32
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_230
       rect:
         serializedVersion: 2
@@ -3759,14 +3759,14 @@ TextureImporter:
         y: 32
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_231
       rect:
         serializedVersion: 2
@@ -3774,14 +3774,14 @@ TextureImporter:
         y: 32
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_232
       rect:
         serializedVersion: 2
@@ -3789,14 +3789,14 @@ TextureImporter:
         y: 32
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_233
       rect:
         serializedVersion: 2
@@ -3804,14 +3804,14 @@ TextureImporter:
         y: 32
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_234
       rect:
         serializedVersion: 2
@@ -3819,14 +3819,14 @@ TextureImporter:
         y: 32
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_235
       rect:
         serializedVersion: 2
@@ -3834,14 +3834,14 @@ TextureImporter:
         y: 32
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_236
       rect:
         serializedVersion: 2
@@ -3849,14 +3849,14 @@ TextureImporter:
         y: 32
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_237
       rect:
         serializedVersion: 2
@@ -3864,14 +3864,14 @@ TextureImporter:
         y: 32
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_238
       rect:
         serializedVersion: 2
@@ -3879,14 +3879,14 @@ TextureImporter:
         y: 32
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_239
       rect:
         serializedVersion: 2
@@ -3894,14 +3894,14 @@ TextureImporter:
         y: 32
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_240
       rect:
         serializedVersion: 2
@@ -3909,14 +3909,14 @@ TextureImporter:
         y: 0
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_241
       rect:
         serializedVersion: 2
@@ -3924,14 +3924,14 @@ TextureImporter:
         y: 0
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_242
       rect:
         serializedVersion: 2
@@ -3939,14 +3939,14 @@ TextureImporter:
         y: 0
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_243
       rect:
         serializedVersion: 2
@@ -3954,14 +3954,14 @@ TextureImporter:
         y: 0
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_244
       rect:
         serializedVersion: 2
@@ -3969,14 +3969,14 @@ TextureImporter:
         y: 0
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_245
       rect:
         serializedVersion: 2
@@ -3984,14 +3984,14 @@ TextureImporter:
         y: 0
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_246
       rect:
         serializedVersion: 2
@@ -3999,14 +3999,14 @@ TextureImporter:
         y: 0
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_247
       rect:
         serializedVersion: 2
@@ -4014,14 +4014,14 @@ TextureImporter:
         y: 0
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_248
       rect:
         serializedVersion: 2
@@ -4029,14 +4029,14 @@ TextureImporter:
         y: 0
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_249
       rect:
         serializedVersion: 2
@@ -4044,14 +4044,14 @@ TextureImporter:
         y: 0
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_250
       rect:
         serializedVersion: 2
@@ -4059,14 +4059,14 @@ TextureImporter:
         y: 0
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     - name: RPGCharacterSprites32x32_251
       rect:
         serializedVersion: 2
@@ -4074,14 +4074,14 @@ TextureImporter:
         y: 0
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 0, y: -32}
-        - {x: 32, y: -32}
-        - {x: 32, y: 0}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
     outline: []
   spritePackingTag: 
   userData: 
