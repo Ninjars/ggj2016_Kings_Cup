@@ -50,6 +50,9 @@ TagManager:
   - name: Floor
     uniqueID: 3501841249
     locked: 0
+  - name: Furniture
+    uniqueID: 317018759
+    locked: 0
   - name: Actor
     uniqueID: 2893458015
     locked: 0
