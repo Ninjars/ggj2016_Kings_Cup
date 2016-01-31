@@ -36,6 +36,8 @@ public class Player : MovingObject {
 
 		torchLights = GameObject.FindGameObjectsWithTag ("TorchLight");
 		mainLights = GameObject.FindGameObjectsWithTag ("AmbientLight");
+
+
 		
 		//Call the Start function of the MovingObject base class.
 		base.Start ();
@@ -70,6 +72,18 @@ public class Player : MovingObject {
 		if(horizontal != 0) {
 			vertical = 0;
 		}
+
+		// Kick off the walking animation
+		if (horizontal > 0){
+			animator.SetTrigger("playerWalkRight");
+		} else if (horizontal < 0){
+			animator.SetTrigger("playerWalkLeft");
+		} else if (vertical > 0){
+			animator.SetTrigger("playerWalkBack");
+		} else if (vertical < 0){
+			animator.SetTrigger("playerWalkForward");
+		}
+
 		//Check if we are running on iOS, Android, Windows Phone 8 or Unity iPhone
 		#elif UNITY_IOS || UNITY_ANDROID || UNITY_WP8 || UNITY_IPHONE
 		
