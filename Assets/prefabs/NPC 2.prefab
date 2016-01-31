@@ -27,7 +27,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 138096}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 2, z: 0}
+  m_LocalPosition: {x: 5, y: 5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -72,7 +72,7 @@ Animator:
   m_GameObject: {fileID: 138096}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 7d0a74bdf65c04937b85e33691dddc92, type: 2}
+  m_Controller: {fileID: 9100000, guid: 31d6120f9ea474ed8903edc28099ba04, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -95,11 +95,11 @@ MonoBehaviour:
   blockingLayer:
     serializedVersion: 2
     m_Bits: 512
-  endX: 8
-  endY: 8
+  endX: 7
+  endY: 1
   moveSounds:
-  - {fileID: 8300000, guid: cb6a314bdd2e44741b2ddc565c4bf5ad, type: 3}
-  - {fileID: 8300000, guid: 763e9ba04d7bc46bc92d0b6fb66890cf, type: 3}
+  - {fileID: 8300000, guid: 478626fe902974e99a894876d85b84cd, type: 3}
+  - {fileID: 8300000, guid: f33ecf830b8c34bda87c2739edfac6b5, type: 3}
   enemyLayer:
     serializedVersion: 2
     m_Bits: 2048
@@ -129,7 +129,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1401509281
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300026, guid: 089da16ae7df84c1a8aa482fe1f7da8e, type: 3}
+  m_Sprite: {fileID: 21300000, guid: c1e5600fa167d479ea6ab9a76e0fb1c7, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0

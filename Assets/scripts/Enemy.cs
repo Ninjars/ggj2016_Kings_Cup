@@ -12,8 +12,8 @@ public class Enemy : MovingObject {
 	private Vector2 startPosition;
 	private Vector2 endPosition;		
 	private bool isHeadedToEnd = true;
-
 	protected enum Directions {LEFT, RIGHT, UP, DOWN, STAY};
+	private Animator animator;
 
 	// Use this for initialization
 	protected override void Start () {
@@ -22,6 +22,7 @@ public class Enemy : MovingObject {
 		this.startPosition = new Vector2 (startX, startY);
 		this.endPosition = new Vector2 (endX, endY);
 		GameManager.instance.addEnemyToList (this);
+		animator = GetComponent<Animator> ();
 		base.Start ();
 	}
 	
@@ -58,6 +59,16 @@ public class Enemy : MovingObject {
 				if (Random.value > 0.5) {
 					SoundManager.instance.RandomizeSfx (moveSounds);
 				}
+				if (next_step == Directions.DOWN) {
+					animator.SetTrigger ("turnForward");
+				} else if (next_step == Directions.UP) {
+					animator.SetTrigger ("turnBack");
+				} else if (next_step == Directions.LEFT){
+					animator.SetTrigger("turnLeft");
+				} else if(next_step == Directions.RIGHT) {
+					animator.SetTrigger("turnRight");
+				}
+				
 			}
 		}
 	}
