@@ -133,8 +133,8 @@ public class GameManager : MonoBehaviour {
 		overlayInstance = Instantiate (overlay) as GameObject;
 		mainTextInstance = Instantiate (mainText) as GameObject;
 		buttonInstance = Instantiate (button) as GameObject;
-		overlayInstance.transform.SetParent(canvasInstance.transform);
-		mainTextInstance.transform.SetParent(canvasInstance.transform);
+		overlayInstance.transform.SetParent(canvasInstance.transform, false);
+		mainTextInstance.transform.SetParent(canvasInstance.transform, false);
 		buttonInstance.transform.SetParent(canvasInstance.transform, false);
 	}
 
