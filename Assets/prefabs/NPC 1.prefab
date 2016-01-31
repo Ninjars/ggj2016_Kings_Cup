@@ -126,6 +126,9 @@ MonoBehaviour:
     m_Bits: 512
   endX: 0
   endY: 0
+  enemyLayer:
+    serializedVersion: 2
+    m_Bits: 2048
 --- !u!212 &21205626
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -204,6 +207,10 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: m_Size.y
       value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: enemyLayer.m_Bits
+      value: 2048
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
