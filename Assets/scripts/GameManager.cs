@@ -22,7 +22,8 @@ public class GameManager : MonoBehaviour {
 	private GameObject mainTextInstance;
 	private GameObject buttonInstance;
 	private GameObject canvasInstance;
-	private bool enemiesMoving;								//Boolean to check if enemies are
+	private bool enemiesMoving;
+	private bool isStartup = true;
 	private Text stepsText;
 	private Text shadowStepText;
 
@@ -76,6 +77,7 @@ public class GameManager : MonoBehaviour {
 	private void ShowStartScreen() {
 		Debug.Log ("ShowStartScreen()");
 		instantiateUI ();
+		isStartup = true;
 		playersTurn = false;
 		mainTextInstance.GetComponent<Text> ().text = levelTitle + "\n" + startLevelMessage;
 		buttonInstance.GetComponentInChildren<Text> ().text = "ENTER THE HALL";
@@ -85,6 +87,7 @@ public class GameManager : MonoBehaviour {
 	private void onStartLevelButtonPressed() {
 		HideLevelImage ();
 		playersTurn = true;
+		isStartup = false;
 	}
 
 	void ShowGameOverMessage(string message) {
@@ -154,7 +157,7 @@ public class GameManager : MonoBehaviour {
 	void Update() {
 //		Debug.Log ("players turn? " + this.playersTurn + " enemy turn? " + this.enemiesMoving);
 		//Check that playersTurn or enemiesMoving or doingSetup are not currently true.
-		if (playersTurn || enemiesMoving) {
+		if (playersTurn || enemiesMoving || isStartup) {
 			//If any of these are true, return and do not start MoveEnemies.
 			return;
 		}
