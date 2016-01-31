@@ -9,6 +9,7 @@ public class Enemy : MovingObject {
 	public int endY;
 	private Vector2 startPosition;
 	private Vector2 endPosition;
+	public AudioClip[] moveSounds;				
 
 	// Use this for initialization
 	protected override void Start () {
@@ -41,6 +42,9 @@ public class Enemy : MovingObject {
 			moved = this.MoveInDirection (next_step);
 			if (!moved) {
 				failedMoves.Add (next_step);
+			} 
+			else {
+				SoundManager.instance.RandomizeSfx (moveSounds);
 			}
 		}
 	}

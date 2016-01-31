@@ -44,9 +44,6 @@ public class SoundManager : MonoBehaviour
 			int randomIndex = Random.Range(0, clips.Length);
 
 			//Set the clip to the clip at our randomly chosen index.
-			efxSource.clip = clips[randomIndex];
-
-			//Play the clip.
-			efxSource.Play();
+			efxSource.PlayOneShot (clips[randomIndex]);
 		}
 }

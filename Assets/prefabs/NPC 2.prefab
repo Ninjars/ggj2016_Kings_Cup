@@ -97,6 +97,9 @@ MonoBehaviour:
     m_Bits: 512
   endX: 8
   endY: 8
+  moveSounds:
+  - {fileID: 8300000, guid: 478626fe902974e99a894876d85b84cd, type: 3}
+  - {fileID: 8300000, guid: f33ecf830b8c34bda87c2739edfac6b5, type: 3}
 --- !u!212 &21233726
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -135,6 +138,10 @@ Prefab:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 0}
+      propertyPath: moveSounds.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
       propertyPath: m_Size.x
       value: 0.8
       objectReference: {fileID: 0}
@@ -142,6 +149,14 @@ Prefab:
       propertyPath: m_Size.y
       value: 0.8
       objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: moveSounds.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: 478626fe902974e99a894876d85b84cd, type: 3}
+    - target: {fileID: 0}
+      propertyPath: moveSounds.Array.data[1]
+      value: 
+      objectReference: {fileID: 8300000, guid: f33ecf830b8c34bda87c2739edfac6b5, type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 138096}
