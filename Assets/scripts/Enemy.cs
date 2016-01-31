@@ -7,9 +7,13 @@ public class Enemy : MovingObject {
 	private int startY;
 	public int endX;
 	public int endY;
+	public AudioClip[] moveSounds;
+	public LayerMask enemyLayer;			//Layer on which collision will be checked.
 	private Vector2 startPosition;
-	private Vector2 endPosition;
-	public AudioClip[] moveSounds;				
+	private Vector2 endPosition;		
+	private bool isHeadedToEnd = true;
+
+	protected enum Directions {LEFT, RIGHT, UP, DOWN, STAY};
 
 	// Use this for initialization
 	protected override void Start () {
@@ -30,31 +34,49 @@ public class Enemy : MovingObject {
 		// If we've reached the end position, we want to head back to the start position
 		if (transform.position.x == endPosition.x && transform.position.y == endPosition.y) {
 //			Debug.Log ("reached end");
-			endPosition = startPosition;
-			startPosition = new Vector2(transform.position.x, transform.position.y);
+			switchStartEndPositions();
 		}
 
-		bool moved = false;
+		beginMoveCycle (false);
+	}
+
+	private void beginMoveCycle(bool alreadyRedirected) {
 		List<Directions> failedMoves = new List<Directions>();
-		while (!moved && failedMoves.Count < 4) {
-//			Debug.Log ("hello from moved loop");
-			Directions next_step = this.getDoStep (failedMoves);
-			moved = this.MoveInDirection (next_step);
-			if (!moved) {
+		for (int i = 0; i < 4; i++) {
+			Directions next_step = this.getNextStepDirection (failedMoves);
+			if (!alreadyRedirected && checkEnemyCollision (next_step)) {
+				Debug.Log("collision with npc!");
+				switchStartEndPositions ();
+				beginMoveCycle (true);
+				return;
+			}
+			if (!this.MoveInDirection (next_step)) {
 				failedMoves.Add (next_step);
 			} 
 			else {
+				// yay steps
 				SoundManager.instance.RandomizeSfx (moveSounds);
 			}
 		}
 	}
 
-	protected Directions getDoStep(List<Directions> failedMoves){
+	private void switchStartEndPositions() {
+		isHeadedToEnd = !isHeadedToEnd;
+		endPosition = startPosition;
+		if (isHeadedToEnd) {
+			endPosition = new Vector2 (endX, endY);
+		} else {
+			endPosition = new Vector2 (startX, startY);
+		}
+		startPosition = new Vector2(transform.position.x, transform.position.y);
+	}
+
+	protected Directions getNextStepDirection(List<Directions> failedMoves){
 //		Debug.Log ("startPosition: " + this.startPosition);
 //		Debug.Log ("endPosition: " + this.endPosition);
 //		Debug.Log ("transform.position: " + transform.position);
 //
-//		Debug.Log ("in getDoStep");
+		//		Debug.Log ("in getNextStepDirection");
 		// attempts to go in a direction towards the end point - if that's not
 		// possible, travels in another direction
 
@@ -69,6 +91,46 @@ public class Enemy : MovingObject {
 		}
 
 		return Directions.STAY;
+	}
+
+	private bool checkEnemyCollision(Directions direction) {
+		Debug.Log("checkCollision " + direction);
+		switch (direction) {
+		case Directions.LEFT:
+			return this.isCollision(-1, 0, enemyLayer);
+		case Directions.RIGHT:
+			return this.isCollision(1, 0, enemyLayer);
+		case Directions.UP:
+			return this.isCollision(0, 1, enemyLayer);
+		case Directions.DOWN:
+			return this.isCollision(0, -1, enemyLayer);
+		default:
+			return false;
+		}
+	}
+
+	protected bool MoveInDirection(Directions direction) {
+		//Hit will store whatever our linecast hits when Move is called.
+		bool didMove;
+		switch (direction) {
+		case Directions.LEFT:
+			didMove = this.Move (-1, 0);
+			break;
+		case Directions.RIGHT:
+			didMove = this.Move (1, 0);
+			break;
+		case Directions.UP:
+			didMove = this.Move (0, 1);
+			break;
+		case Directions.DOWN:
+			didMove = this.Move (0, -1);
+			break;
+		default:
+			didMove = true;
+			break;
+		}
+		return didMove;
+
 	}
 		
 }

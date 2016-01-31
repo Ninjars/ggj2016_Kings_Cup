@@ -127,8 +127,11 @@ MonoBehaviour:
   endX: 0
   endY: 0
   moveSounds:
-  - {fileID: 8300000, guid: cb6a314bdd2e44741b2ddc565c4bf5ad, type: 3}
-  - {fileID: 8300000, guid: 763e9ba04d7bc46bc92d0b6fb66890cf, type: 3}
+  - {fileID: 8300000, guid: 478626fe902974e99a894876d85b84cd, type: 3}
+  - {fileID: 8300000, guid: f33ecf830b8c34bda87c2739edfac6b5, type: 3}
+  enemyLayer:
+    serializedVersion: 2
+    m_Bits: 2048
 --- !u!212 &21205626
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -215,11 +218,15 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: moveSounds.Array.data[0]
       value: 
-      objectReference: {fileID: 8300000, guid: cb6a314bdd2e44741b2ddc565c4bf5ad, type: 3}
+      objectReference: {fileID: 8300000, guid: 478626fe902974e99a894876d85b84cd, type: 3}
     - target: {fileID: 0}
       propertyPath: moveSounds.Array.data[1]
       value: 
-      objectReference: {fileID: 8300000, guid: 763e9ba04d7bc46bc92d0b6fb66890cf, type: 3}
+      objectReference: {fileID: 8300000, guid: f33ecf830b8c34bda87c2739edfac6b5, type: 3}
+    - target: {fileID: 0}
+      propertyPath: enemyLayer.m_Bits
+      value: 2048
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 167490}

@@ -57,7 +57,7 @@ public class GameManager : MonoBehaviour {
 	}
 
 	public void updateStepsText(int steps) {
-		stepsText.text = "Steps: " + steps;
+		stepsText.text = "Steps: " + (MaxTurns - steps);
 	}
 
 	public void updateShadowStepsText(int stepsInShadow) {
