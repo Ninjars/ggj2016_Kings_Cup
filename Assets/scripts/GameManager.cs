@@ -12,7 +12,8 @@ public class GameManager : MonoBehaviour {
 	[HideInInspector] public bool playersTurn = true;		//Boolean to check if it's players turn, hidden in inspector but public.
 	public int MaxTurns = 10;
 
-	//private Text levelText;									//Text to display current level number.
+	public string startLevelMessage;
+	public string levelTitle;
 	public GameObject overlay;							//Image to block out level as levels are being set up, background for levelText.
 	public GameObject mainText;
 	public GameObject canvas;
@@ -20,7 +21,10 @@ public class GameManager : MonoBehaviour {
 	private GameObject overlayInstance;
 	private GameObject mainTextInstance;
 	private GameObject buttonInstance;
-	private bool enemiesMoving;								//Boolean to check if enemies are 
+	private GameObject canvasInstance;
+	private bool enemiesMoving;								//Boolean to check if enemies are
+	private Text stepsText;
+	private Text shadowStepText;
 
 	public enum GameOverReason {WINE, TIME, SHADOWS, ATTEMPTED_REGICIDE};
 
@@ -39,6 +43,26 @@ public class GameManager : MonoBehaviour {
 		
 		//Assign enemies to a new List of Enemy objects.
 		enemies = new List<Enemy>();
+		canvasInstance = Instantiate (canvas) as GameObject;
+		stepsText = (GameObject.Find ("StepText") as GameObject).GetComponentInChildren<Text> ();
+		GameObject shadowTextObj = GameObject.Find ("ShadowStepText") as GameObject;
+		if (shadowTextObj != null) {
+			shadowStepText = shadowTextObj.GetComponentInChildren<Text> ();
+		}
+	}
+
+	void Start() {
+		ShowStartScreen ();
+	}
+
+	public void updateStepsText(int steps) {
+		stepsText.text = "Steps: " + steps;
+	}
+
+	public void updateShadowStepsText(int stepsInShadow) {
+		if (shadowStepText != null) {
+			shadowStepText.text = "Steps in shadow: " + stepsInShadow;
+		}
 	}
 	
 	//Hides black image used between levels
@@ -47,6 +71,20 @@ public class GameManager : MonoBehaviour {
 		if (overlayInstance != null) Transform.Destroy(overlayInstance);
 		if (mainTextInstance != null) Transform.Destroy(mainTextInstance);
 		if (buttonInstance != null) Transform.Destroy(buttonInstance);
+	}
+
+	private void ShowStartScreen() {
+		Debug.Log ("ShowStartScreen()");
+		instantiateUI ();
+		playersTurn = false;
+		mainTextInstance.GetComponent<Text> ().text = levelTitle + "\n" + startLevelMessage;
+		buttonInstance.GetComponentInChildren<Text> ().text = "ENTER THE HALL";
+		buttonInstance.GetComponentInChildren<Button>().onClick.AddListener (() => onStartLevelButtonPressed());
+	}
+
+	private void onStartLevelButtonPressed() {
+		HideLevelImage ();
+		playersTurn = true;
 	}
 
 	void ShowGameOverMessage(string message) {
@@ -95,9 +133,9 @@ public class GameManager : MonoBehaviour {
 		overlayInstance = Instantiate (overlay) as GameObject;
 		mainTextInstance = Instantiate (mainText) as GameObject;
 		buttonInstance = Instantiate (button) as GameObject;
-		overlayInstance.transform.SetParent(canvas.transform);
-		mainTextInstance.transform.SetParent(canvas.transform);
-		buttonInstance.transform.SetParent(canvas.transform, false);
+		overlayInstance.transform.SetParent(canvasInstance.transform);
+		mainTextInstance.transform.SetParent(canvasInstance.transform);
+		buttonInstance.transform.SetParent(canvasInstance.transform, false);
 	}
 
 	private void RestartLevel() {

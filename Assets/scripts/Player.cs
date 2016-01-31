@@ -7,8 +7,6 @@ using System.Collections.Generic;
 //Player inherits from MovingObject, our base class for objects that can move, Enemy also inherits from this.
 public class Player : MovingObject {
 	public float restartLevelDelay = 1f;		//Delay time in seconds to restart level.
-	public Text stepText;						//UI Text to display current player food total.
-	public Text shadowStepText;						//UI Text to display current player food total.
 	public AudioClip[] moveSounds;				//1 of 2 Audio clips to play when player moves.
 	public AudioClip[] pourSounds;
 	public AudioClip gameOverSound;				//Audio clip to play when player dies.
@@ -45,13 +43,11 @@ public class Player : MovingObject {
 	}
 
 	private void updateStepsText() {
-		stepText.text = "Steps: " + steps;
+		GameManager.instance.updateStepsText(steps);
 	}
 
 	private void updateShadowStepsText() {
-		if (shadowStepText != null) {
-			shadowStepText.text = "Steps in shadow: " + stepsInShadow;
-		}
+		GameManager.instance.updateShadowStepsText(stepsInShadow);
 	}
 	
 	private void Update() {

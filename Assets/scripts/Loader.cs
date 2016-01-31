@@ -7,7 +7,8 @@ public class Loader : MonoBehaviour
 	public GameObject soundManager;			//SoundManager prefab to instantiate.
 
 	public int MaxTurns;
-	public GameObject canvas;
+	public string startLevelMessage;
+	public string levelTitle;
 	
 	
 	void Awake ()
@@ -19,7 +20,8 @@ public class Loader : MonoBehaviour
 			Instantiate(gameManager);
 
 		GameManager.instance.MaxTurns = MaxTurns;
-		GameManager.instance.canvas = canvas;
+		GameManager.instance.startLevelMessage = startLevelMessage;
+		GameManager.instance.levelTitle = levelTitle;
 		
         //Check if a SoundManager has already been assigned to static variable GameManager.instance or if it's still null
         if (SoundManager.instance == null)
