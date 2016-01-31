@@ -55,7 +55,9 @@ public class Enemy : MovingObject {
 			} 
 			else {
 				// yay steps
-				SoundManager.instance.RandomizeSfx (moveSounds);
+				if (Random.value > 0.5) {
+					SoundManager.instance.RandomizeSfx (moveSounds);
+				}
 			}
 		}
 	}
