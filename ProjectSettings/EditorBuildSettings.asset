@@ -9,3 +9,5 @@ EditorBuildSettings:
     path: Assets/scenes/level1.unity
   - enabled: 1
     path: Assets/scenes/shadow_games.unity
+  - enabled: 1
+    path: Assets/scenes/grand_ball.unity
