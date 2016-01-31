@@ -1,22 +1,26 @@
 fileFormatVersion: 2
-guid: 0cf6644dd2ce84f12a79ea19aa89cd49
-timeCreated: 1454193555
+guid: f193076fdda014e9d986711d82e4f760
+timeCreated: 1454242156
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: Monobrow man with flower hat (2)_0
-    21300002: Monobrow man with flower hat (2)_1
-    21300004: Monobrow man with flower hat (2)_2
-    21300006: Monobrow man with flower hat (2)_3
-    21300008: Monobrow man with flower hat (2)_4
-    21300010: Monobrow man with flower hat (2)_5
-    21300012: Monobrow man with flower hat (2)_6
-    21300014: Monobrow man with flower hat (2)_7
-    21300016: Monobrow man with flower hat (2)_8
-    21300018: Monobrow man with flower hat (2)_9
-    21300020: Monobrow man with flower hat (2)_10
-    21300022: Monobrow man with flower hat (2)_11
-    21300024: Monobrow man with flower hat (2)_12
+    21300000: Monobrow man with flower hat (4)_0
+    21300002: Monobrow man with flower hat (4)_1
+    21300004: Monobrow man with flower hat (4)_2
+    21300006: Monobrow man with flower hat (4)_3
+    21300008: Monobrow man with flower hat (4)_4
+    21300010: Monobrow man with flower hat (4)_5
+    21300012: Monobrow man with flower hat (4)_6
+    21300014: Monobrow man with flower hat (4)_7
+    21300016: Monobrow man with flower hat (4)_8
+    21300018: Monobrow man with flower hat (4)_9
+    21300020: Monobrow man with flower hat (4)_10
+    21300022: Monobrow man with flower hat (4)_11
+    21300024: Monobrow man with flower hat (4)_12
+    21300026: Monobrow man with flower hat (4)_13
+    21300028: Monobrow man with flower hat (4)_14
+    21300030: Monobrow man with flower hat (4)_15
+    21300032: Monobrow man with flower hat (4)_16
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -63,7 +67,7 @@ TextureImporter:
   buildTargetSettings: []
   spriteSheet:
     sprites:
-    - name: Monobrow man with flower hat (2)_0
+    - name: Monobrow man with flower hat (4)_0
       rect:
         serializedVersion: 2
         x: 0
@@ -71,7 +75,7 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -10, y: 16}
@@ -80,7 +84,7 @@ TextureImporter:
         - {x: 8, y: -16}
         - {x: 8, y: 15}
         - {x: 7, y: 16}
-    - name: Monobrow man with flower hat (2)_1
+    - name: Monobrow man with flower hat (4)_1
       rect:
         serializedVersion: 2
         x: 32
@@ -88,7 +92,7 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -10, y: 16}
@@ -97,7 +101,7 @@ TextureImporter:
         - {x: 8, y: -16}
         - {x: 8, y: 7}
         - {x: 5, y: 16}
-    - name: Monobrow man with flower hat (2)_2
+    - name: Monobrow man with flower hat (4)_2
       rect:
         serializedVersion: 2
         x: 64
@@ -105,7 +109,24 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 16}
+        - {x: -10, y: -11}
+        - {x: -9, y: -16}
+        - {x: 8, y: -16}
+        - {x: 8, y: 7}
+        - {x: 5, y: 16}
+    - name: Monobrow man with flower hat (4)_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -10, y: 16}
@@ -114,22 +135,7 @@ TextureImporter:
         - {x: 8, y: -16}
         - {x: 8, y: 15}
         - {x: 6, y: 16}
-    - name: Monobrow man with flower hat (2)_3
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -10, y: 16}
-        - {x: -10, y: -16}
-        - {x: 8, y: -16}
-        - {x: 8, y: 16}
-    - name: Monobrow man with flower hat (2)_4
+    - name: Monobrow man with flower hat (4)_4
       rect:
         serializedVersion: 2
         x: 128
@@ -137,7 +143,22 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 16}
+        - {x: -10, y: -16}
+        - {x: 8, y: -16}
+        - {x: 8, y: 16}
+    - name: Monobrow man with flower hat (4)_5
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: 3, y: 16}
@@ -147,15 +168,33 @@ TextureImporter:
         - {x: -7, y: -16}
         - {x: 6, y: -16}
         - {x: 6, y: 9}
-    - name: Monobrow man with flower hat (2)_5
+    - name: Monobrow man with flower hat (4)_6
       rect:
         serializedVersion: 2
-        x: 160
+        x: 192
         y: 0
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 3, y: 16}
+        - {x: -9, y: 16}
+        - {x: -10, y: 14}
+        - {x: -10, y: -5}
+        - {x: -7, y: -16}
+        - {x: 6, y: -16}
+        - {x: 6, y: 9}
+    - name: Monobrow man with flower hat (4)_7
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -11, y: 16}
@@ -165,39 +204,7 @@ TextureImporter:
         - {x: 6, y: -10}
         - {x: 6, y: 6}
         - {x: 3, y: 16}
-    - name: Monobrow man with flower hat (2)_6
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -12, y: 16}
-        - {x: -12, y: -16}
-        - {x: 6, y: -16}
-        - {x: 6, y: 13}
-        - {x: 4, y: 16}
-    - name: Monobrow man with flower hat (2)_7
-      rect:
-        serializedVersion: 2
-        x: 224
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -7, y: 16}
-        - {x: -7, y: -16}
-        - {x: 8, y: -16}
-        - {x: 10, y: -5}
-        - {x: 10, y: 16}
-    - name: Monobrow man with flower hat (2)_8
+    - name: Monobrow man with flower hat (4)_8
       rect:
         serializedVersion: 2
         x: 256
@@ -205,7 +212,55 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 16}
+        - {x: -12, y: -16}
+        - {x: 6, y: -16}
+        - {x: 6, y: 13}
+        - {x: 4, y: 16}
+    - name: Monobrow man with flower hat (4)_9
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 16}
+        - {x: -7, y: -16}
+        - {x: 8, y: -16}
+        - {x: 10, y: -5}
+        - {x: 10, y: 16}
+    - name: Monobrow man with flower hat (4)_10
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 16}
+        - {x: -7, y: -16}
+        - {x: 8, y: -16}
+        - {x: 10, y: -5}
+        - {x: 10, y: 16}
+    - name: Monobrow man with flower hat (4)_11
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -2, y: 16}
@@ -217,15 +272,15 @@ TextureImporter:
         - {x: 10, y: -12}
         - {x: 10, y: 15}
         - {x: 9, y: 16}
-    - name: Monobrow man with flower hat (2)_9
+    - name: Monobrow man with flower hat (4)_12
       rect:
         serializedVersion: 2
-        x: 288
+        x: 384
         y: 0
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: 8, y: 16}
@@ -236,15 +291,15 @@ TextureImporter:
         - {x: 12, y: -16}
         - {x: 12, y: 4}
         - {x: 11, y: 14}
-    - name: Monobrow man with flower hat (2)_10
+    - name: Monobrow man with flower hat (4)_13
       rect:
         serializedVersion: 2
-        x: 320
+        x: 416
         y: 0
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -10, y: 16}
@@ -253,15 +308,32 @@ TextureImporter:
         - {x: 8, y: -16}
         - {x: 8, y: 7}
         - {x: 5, y: 16}
-    - name: Monobrow man with flower hat (2)_11
+    - name: Monobrow man with flower hat (4)_14
       rect:
         serializedVersion: 2
-        x: 352
+        x: 448
         y: 0
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 16}
+        - {x: -10, y: -11}
+        - {x: -9, y: -16}
+        - {x: 8, y: -16}
+        - {x: 8, y: 7}
+        - {x: 5, y: 16}
+    - name: Monobrow man with flower hat (4)_15
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: 7, y: 16}
@@ -269,15 +341,15 @@ TextureImporter:
         - {x: -10, y: -16}
         - {x: 8, y: -16}
         - {x: 8, y: 15}
-    - name: Monobrow man with flower hat (2)_12
+    - name: Monobrow man with flower hat (4)_16
       rect:
         serializedVersion: 2
-        x: 384
+        x: 512
         y: 0
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: 7, y: 16}
